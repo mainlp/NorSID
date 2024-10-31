@@ -1,0 +1,7 @@
+.DS_Store
+models
+.config
+.cache
+.rasa
+.idea
+.python-version
