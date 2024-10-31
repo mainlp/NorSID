@@ -1,0 +1,9 @@
+[submodule "data/xsid"]
+	path = data/xsid
+	url = git@github.com:mainlp/xsid.git
+[submodule "data/NoMusic"]
+	path = data/NoMusic
+	url = git@github.com:ltgoslo/NoMusic.git
+[submodule "data/UD_Norwegian-NynorskLIA_dialect"]
+	path = data/UD_Norwegian-NynorskLIA_dialect
+	url = https://github.com/mainlp/UD_Norwegian-NynorskLIA_dialect
