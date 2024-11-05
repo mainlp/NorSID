@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Alarm every five minutes for 20 minutes please",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.40518638491630554
+    }
+  },
+  {
+    "text": "find Vegucated starting at zero pm",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.6874055862426758
+    }
+  }
+]

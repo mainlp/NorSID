@@ -1,0 +1,1085 @@
+[
+  {
+    "text": "What is the humidity level today",
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "value": "humidity level",
+        "entity": "weather__attribute"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "today",
+        "entity": "datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "weather__attribute",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.993014931678772,
+        "value": "humidity",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.999631404876709,
+        "value": "today",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how many inches of rain are we suppose to get tomorrow?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "value": "inches of rain",
+        "entity": "weather__attribute"
+      },
+      {
+        "start": 46,
+        "end": 54,
+        "value": "tomorrow",
+        "entity": "datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "weather__attribute",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9972130656242371,
+        "value": "rain",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 46,
+        "end": 54,
+        "confidence_entity": 0.999819815158844,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How cold will it be in the morning?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "value": "cold",
+        "entity": "weather__attribute"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "value": "morning",
+        "entity": "datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "weather__attribute",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.9992941617965698,
+        "value": "cold",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 20,
+        "end": 34,
+        "confidence_entity": 0.9593896865844727,
+        "value": "in the morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What weather warnings do I have?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "warnings",
+        "entity": "weather__attribute"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "is it below freezing today?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 20,
+        "value": "below freezing",
+        "entity": "weather__attribute"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "value": "today",
+        "entity": "datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "weather__attribute",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.5990426540374756,
+        "value": "freezing",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9992341995239258,
+        "value": "today",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Will there be a storm nearby",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "storm",
+        "entity": "condition_description"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "value": "nearby",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "weather__attribute",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.8216601014137268,
+        "value": "storm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.9995259046554565,
+        "value": "nearby",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "is it going to be chilly in Western Sahara in 13 hours",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "chilly",
+        "entity": "condition_temperature"
+      },
+      {
+        "start": 28,
+        "end": 42,
+        "value": "Western Sahara",
+        "entity": "location"
+      },
+      {
+        "start": 46,
+        "end": 54,
+        "value": "13 hours",
+        "entity": "datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition_temperature",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9932289123535156,
+        "value": "chilly",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 28,
+        "end": 42,
+        "confidence_entity": 0.9646947979927063,
+        "value": "Western Sahara",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 43,
+        "end": 54,
+        "confidence_entity": 0.889768660068512,
+        "value": "in 13 hours",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need an alarm for 5pm to remind me to take my medicine",
+    "entities": [
+      {
+        "start": 20,
+        "end": 23,
+        "value": "5pm",
+        "entity": "datetime"
+      },
+      {
+        "start": 40,
+        "end": 56,
+        "value": "take my medicine",
+        "entity": "reminder__todo"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "datetime",
+        "start": 20,
+        "end": 23,
+        "confidence_entity": 0.9968246221542358,
+        "value": "5pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Set an alarm for every ten minutes, starting at 5:30 and ending at 6 am.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 71,
+        "value": "every ten minutes, starting at 5:30 and ending at 6 am",
+        "entity": "recurring_datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recurring_datetime",
+        "start": 17,
+        "end": 34,
+        "confidence_entity": 0.715584933757782,
+        "value": "every ten minutes",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recurring_datetime",
+        "start": 45,
+        "end": 52,
+        "confidence_entity": 0.5109035968780518,
+        "value": "at 5:30",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recurring_datetime",
+        "start": 67,
+        "end": 71,
+        "confidence_entity": 0.40824997425079346,
+        "value": "6 am",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Set eh alarm to 7:20am for the shoe release.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "7:20am",
+        "entity": "datetime"
+      },
+      {
+        "start": 31,
+        "end": 43,
+        "value": "shoe release",
+        "entity": "reminder__todo"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "datetime",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.9429867267608643,
+        "value": "7:20am",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show all reminders for tomorrow morning",
+    "entities": [
+      {
+        "start": 23,
+        "end": 39,
+        "value": "tomorrow morning",
+        "entity": "datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "reference",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.998868465423584,
+        "value": "all",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 23,
+        "end": 39,
+        "confidence_entity": 0.9911666512489319,
+        "value": "tomorrow morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is my dentist appointment in my reminder ?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 25,
+        "value": "my dentist appointment",
+        "entity": "reminder__todo"
+      },
+      {
+        "start": 29,
+        "end": 31,
+        "value": "my",
+        "entity": "reference"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "reference",
+        "start": 3,
+        "end": 5,
+        "confidence_entity": 0.7988868355751038,
+        "value": "my",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "reminder__todo",
+        "start": 6,
+        "end": 25,
+        "confidence_entity": 0.9001423120498657,
+        "value": "dentist appointment",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "reference",
+        "start": 29,
+        "end": 31,
+        "confidence_entity": 0.9648832082748413,
+        "value": "my",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "remind me to submit my lesson plans every monday by the end of the day",
+    "entities": [
+      {
+        "start": 13,
+        "end": 35,
+        "value": "submit my lesson plans",
+        "entity": "reminder__todo"
+      },
+      {
+        "start": 36,
+        "end": 70,
+        "value": "every monday by the end of the day",
+        "entity": "recurring_datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "reminder__todo",
+        "start": 13,
+        "end": 35,
+        "confidence_entity": 0.7474527955055237,
+        "value": "submit my lesson plans",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recurring_datetime",
+        "start": 36,
+        "end": 48,
+        "confidence_entity": 0.8938820362091064,
+        "value": "every monday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 49,
+        "end": 70,
+        "confidence_entity": 0.3554018437862396,
+        "value": "by the end of the day",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Play shadowplay by Dana on Deezer .",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "shadowplay",
+        "entity": "track"
+      },
+      {
+        "start": 19,
+        "end": 23,
+        "value": "Dana",
+        "entity": "artist"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "value": "Deezer",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "album",
+        "start": 5,
+        "end": 15,
+        "confidence_entity": 0.31049054861068726,
+        "value": "shadowplay",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.8699665665626526,
+        "value": "Dana",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.9993638396263123,
+        "value": "Deezer",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play the album Everybody Happy by Lee Aaron",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "album",
+        "entity": "music_item"
+      },
+      {
+        "start": 15,
+        "end": 30,
+        "value": "Everybody Happy",
+        "entity": "album"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "value": "Lee Aaron",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "music_item",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9775166511535645,
+        "value": "album",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "track",
+        "start": 15,
+        "end": 30,
+        "confidence_entity": 0.7075591683387756,
+        "value": "Everybody Happy",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 34,
+        "end": 43,
+        "confidence_entity": 0.9746968150138855,
+        "value": "Lee Aaron",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Play the album Vibrations by Marion Elise Raven",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "album",
+        "entity": "music_item"
+      },
+      {
+        "start": 15,
+        "end": 25,
+        "value": "Vibrations",
+        "entity": "album"
+      },
+      {
+        "start": 29,
+        "end": 47,
+        "value": "Marion Elise Raven",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "music_item",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9698362350463867,
+        "value": "album",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "track",
+        "start": 15,
+        "end": 25,
+        "confidence_entity": 0.2594583034515381,
+        "value": "Vibrations",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 29,
+        "end": 47,
+        "confidence_entity": 0.7380237579345703,
+        "value": "Marion Elise Raven",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show of From South Africa to South Carolina",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "show",
+        "entity": "object_type"
+      },
+      {
+        "start": 8,
+        "end": 43,
+        "value": "From South Africa to South Carolina",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 8,
+        "end": 28,
+        "confidence_entity": 0.4166816473007202,
+        "value": "From South Africa to",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 29,
+        "end": 43,
+        "confidence_entity": 0.7125682830810547,
+        "value": "South Carolina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "book near Montana restaurant serving sri lankan food for 6 that is highly rated on tues.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "near",
+        "entity": "location"
+      },
+      {
+        "start": 10,
+        "end": 17,
+        "value": "Montana",
+        "entity": "location"
+      },
+      {
+        "start": 18,
+        "end": 28,
+        "value": "restaurant",
+        "entity": "restaurant_type"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "value": "sri lankan",
+        "entity": "cuisine"
+      },
+      {
+        "start": 57,
+        "end": 58,
+        "value": "6",
+        "entity": "party_size_number"
+      },
+      {
+        "start": 67,
+        "end": 79,
+        "value": "highly rated",
+        "entity": "sort"
+      },
+      {
+        "start": 83,
+        "end": 88,
+        "value": "tues.",
+        "entity": "datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.5662717223167419,
+        "value": "Montana",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant_type",
+        "start": 18,
+        "end": 28,
+        "confidence_entity": 0.7795426845550537,
+        "value": "restaurant",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 37,
+        "end": 40,
+        "confidence_entity": 0.27677974104881287,
+        "value": "sri",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 41,
+        "end": 52,
+        "confidence_entity": 0.35630518198013306,
+        "value": "lankan food",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "party_size_number",
+        "start": 57,
+        "end": 58,
+        "confidence_entity": 0.9979311227798462,
+        "value": "6",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sort",
+        "start": 67,
+        "end": 79,
+        "confidence_entity": 0.9692690968513489,
+        "value": "highly rated",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 83,
+        "end": 87,
+        "confidence_entity": 0.9920938611030579,
+        "value": "tues",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Book me a lunch at Boreas for a party of 8",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "lunch",
+        "entity": "datetime"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "Boreas",
+        "entity": "restaurant_name"
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "value": "8",
+        "entity": "party_size_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.9820744395256042,
+        "value": "Boreas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "party_size_number",
+        "start": 41,
+        "end": 42,
+        "confidence_entity": 0.926116943359375,
+        "value": "8",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "book at The Halal Guys on Oct. 17",
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "value": "The Halal Guys",
+        "entity": "restaurant_name"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "value": "Oct. 17",
+        "entity": "datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant_name",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.8606044054031372,
+        "value": "The",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.9113689661026001,
+        "value": "Halal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.3622117340564728,
+        "value": "Guys",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.9940264225006104,
+        "value": "Oct",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 31,
+        "end": 33,
+        "confidence_entity": 0.9969645142555237,
+        "value": "17",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "stacy watson and adriana want to go to the best osteria in Hallowell Minnesota this afternoon",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "value": "stacy watson and adriana",
+        "entity": "party_size_description"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "value": "best",
+        "entity": "sort"
+      },
+      {
+        "start": 48,
+        "end": 55,
+        "value": "osteria",
+        "entity": "restaurant_type"
+      },
+      {
+        "start": 59,
+        "end": 68,
+        "value": "Hallowell",
+        "entity": "location"
+      },
+      {
+        "start": 69,
+        "end": 78,
+        "value": "Minnesota",
+        "entity": "location"
+      },
+      {
+        "start": 84,
+        "end": 93,
+        "value": "afternoon",
+        "entity": "datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "party_size_description",
+        "start": 0,
+        "end": 24,
+        "confidence_entity": 0.5370003581047058,
+        "value": "stacy watson and adriana",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sort",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.9589220881462097,
+        "value": "best",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant_type",
+        "start": 48,
+        "end": 55,
+        "confidence_entity": 0.9871188402175903,
+        "value": "osteria",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 59,
+        "end": 78,
+        "confidence_entity": 0.9545456171035767,
+        "value": "Hallowell Minnesota",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 79,
+        "end": 93,
+        "confidence_entity": 0.9843546152114868,
+        "value": "this afternoon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "this winter , meredith, betty and erika want to food at a gastropub that is in the same area as fran's location .",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "this winter",
+        "entity": "datetime"
+      },
+      {
+        "start": 14,
+        "end": 39,
+        "value": "meredith, betty and erika",
+        "entity": "party_size_description"
+      },
+      {
+        "start": 58,
+        "end": 67,
+        "value": "gastropub",
+        "entity": "restaurant_type"
+      },
+      {
+        "start": 76,
+        "end": 92,
+        "value": "in the same area",
+        "entity": "location"
+      },
+      {
+        "start": 96,
+        "end": 111,
+        "value": "fran's location",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "datetime",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.4802907705307007,
+        "value": "winter",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "party_size_description",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.8667465448379517,
+        "value": "meredith",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "party_size_description",
+        "start": 24,
+        "end": 39,
+        "confidence_entity": 0.7237346768379211,
+        "value": "betty and erika",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant_type",
+        "start": 58,
+        "end": 67,
+        "confidence_entity": 0.9928687214851379,
+        "value": "gastropub",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 76,
+        "end": 92,
+        "confidence_entity": 0.7801982164382935,
+        "value": "in the same area",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "party_size_description",
+        "start": 96,
+        "end": 100,
+        "confidence_entity": 0.2935718894004822,
+        "value": "fran",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 103,
+        "end": 111,
+        "confidence_entity": 0.833088219165802,
+        "value": "location",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find Vegucated starting at zero pm",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "Vegucated",
+        "entity": "movie_name"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "value": "zero pm",
+        "entity": "datetime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.8640852570533752,
+        "value": "Vegucated",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "datetime",
+        "start": 27,
+        "end": 34,
+        "confidence_entity": 0.9008919596672058,
+        "value": "zero pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "when can i see A Handful of Dust in a movie theatre",
+    "entities": [
+      {
+        "start": 15,
+        "end": 32,
+        "value": "A Handful of Dust",
+        "entity": "movie_name"
+      },
+      {
+        "start": 38,
+        "end": 51,
+        "value": "movie theatre",
+        "entity": "object_location_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "movie_name",
+        "start": 15,
+        "end": 27,
+        "confidence_entity": 0.9790757894515991,
+        "value": "A Handful of",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "movie_name",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.6304927468299866,
+        "value": "Dust in",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_location_type",
+        "start": 38,
+        "end": 51,
+        "confidence_entity": 0.9692213535308838,
+        "value": "movie theatre",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

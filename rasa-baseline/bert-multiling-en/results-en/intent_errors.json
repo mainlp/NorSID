@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Stop alarm for 6:00 am",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9357935786247253
+    }
+  },
+  {
+    "text": "Find the schedule for Ghost World .",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9951717257499695
+    }
+  }
+]

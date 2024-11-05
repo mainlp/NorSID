@@ -1,0 +1,18 @@
+recipe: default.v1
+assistant_id: 20241028-144523-threaded-agent
+language: en # this doesn't matter for the baseline because the pipeline components are language-independent
+
+pipeline:
+   - name: WhitespaceTokenizer
+   - name: LexicalSyntacticFeaturizer
+   - name: CountVectorsFeaturizer
+   - name: CountVectorsFeaturizer
+     analyzer: char_wb
+     min_ngram: 1
+     max_ngram: 4
+   - name: LanguageModelFeaturizer
+     model_name: "bert"
+     model_weights: "google-bert/bert-base-uncased"
+   - name: DIETClassifier
+     epochs: 5
+     constrain_similarities: true
