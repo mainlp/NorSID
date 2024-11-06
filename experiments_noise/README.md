@@ -1,5 +1,14 @@
 # SID with noised training data
 
+Calculate the split word ratios (saved to `results/split_word_ratios.tsv`):
+```
+cd code
+python split_word_ratios.py
+```
+
+
+--
+
 ```
 cd datasets/UD_Norwegian-NynorskLIA_dialect
 ./run.sh

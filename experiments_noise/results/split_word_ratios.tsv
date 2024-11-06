@@ -1,0 +1,7 @@
+FILE	TOKENIZER	SPLIT WORD RATIO
+../data/NoMusic/NorSID/norsid_dev.conll	microsoft/mdeberta-v3-base	0.4440147047560695
+../data/NoMusic/NorSID/norsid_dev.conll	ltg/norbert3-base	0.18917055985295245
+../data/NoMusic/NorSID/norsid_dev.conll	vesteinn/ScandiBERT	0.21854177835643715
+../data/NoMusic/NorSID/nb.projectedTrain.conll.fixed	microsoft/mdeberta-v3-base	0.4697375831940009
+../data/NoMusic/NorSID/nb.projectedTrain.conll.fixed	ltg/norbert3-base	0.10588086117770563
+../data/NoMusic/NorSID/nb.projectedTrain.conll.fixed	vesteinn/ScandiBERT	0.13712081670927734

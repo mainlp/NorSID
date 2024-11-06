@@ -5,3 +5,4 @@ models
 .rasa
 .idea
 .python-version
+*.ipynb
