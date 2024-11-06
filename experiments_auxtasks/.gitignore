@@ -2,4 +2,4 @@ logs/*/*/*.pt
 logs/*/*/*.json
 logs/*/*/*.txt
 logs/*/*/vocabularies/*
-
+!logs/*/*/metrics.json
