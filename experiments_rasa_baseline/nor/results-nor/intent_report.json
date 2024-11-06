@@ -1,0 +1,163 @@
+{
+  "reminder__cancel_reminder": {
+    "precision": 0.9871794871794872,
+    "recall": 0.7,
+    "f1-score": 0.8191489361702128,
+    "support": 110,
+    "confused_with": {
+      "reminder__show_reminders": 22,
+      "reminder__set_reminder": 10
+    }
+  },
+  "alarm__cancel_alarm": {
+    "precision": 0.9041095890410958,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.8590021691973969,
+    "support": 242,
+    "confused_with": {
+      "alarm__show_alarms": 39,
+      "alarm__set_alarm": 4
+    }
+  },
+  "PlayMusic": {
+    "precision": 0.9473684210526315,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.9509433962264151,
+    "support": 264,
+    "confused_with": {
+      "RateBook": 6,
+      "SearchCreativeWork": 3
+    }
+  },
+  "weather__find": {
+    "precision": 0.9953596287703016,
+    "recall": 0.975,
+    "f1-score": 0.9850746268656717,
+    "support": 880,
+    "confused_with": {
+      "RateBook": 6,
+      "reminder__set_reminder": 5
+    }
+  },
+  "alarm__show_alarms": {
+    "precision": 0.7236842105263158,
+    "recall": 1.0,
+    "f1-score": 0.8396946564885496,
+    "support": 110,
+    "confused_with": {}
+  },
+  "alarm__modify_alarm": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 11,
+    "confused_with": {
+      "alarm__set_alarm": 1
+    }
+  },
+  "reminder__set_reminder": {
+    "precision": 0.8402366863905325,
+    "recall": 0.993006993006993,
+    "f1-score": 0.9102564102564102,
+    "support": 143,
+    "confused_with": {
+      "alarm__set_alarm": 1
+    }
+  },
+  "AddToPlaylist": {
+    "precision": 0.9855072463768116,
+    "recall": 0.9760765550239234,
+    "f1-score": 0.9807692307692307,
+    "support": 209,
+    "confused_with": {
+      "weather__find": 2,
+      "SearchCreativeWork": 1
+    }
+  },
+  "alarm__snooze_alarm": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 22,
+    "confused_with": {
+      "alarm__cancel_alarm": 20,
+      "alarm__show_alarms": 1,
+      "alarm__set_alarm": 1
+    }
+  },
+  "BookRestaurant": {
+    "precision": 0.9895104895104895,
+    "recall": 0.9895104895104895,
+    "f1-score": 0.9895104895104895,
+    "support": 286,
+    "confused_with": {
+      "SearchCreativeWork": 2,
+      "weather__find": 1
+    }
+  },
+  "RateBook": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 165,
+    "confused_with": {}
+  },
+  "SearchScreeningEvent": {
+    "precision": 0.9747899159663865,
+    "recall": 0.9169960474308301,
+    "f1-score": 0.9450101832993889,
+    "support": 253,
+    "confused_with": {
+      "SearchCreativeWork": 20,
+      "weather__find": 1
+    }
+  },
+  "alarm__set_alarm": {
+    "precision": 0.9703703703703703,
+    "recall": 0.9924242424242424,
+    "f1-score": 0.9812734082397003,
+    "support": 264,
+    "confused_with": {
+      "reminder__set_reminder": 2
+    }
+  },
+  "reminder__show_reminders": {
+    "precision": 0.8402777777777778,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8768115942028986,
+    "support": 132,
+    "confused_with": {
+      "reminder__set_reminder": 10,
+      "alarm__show_alarms": 1
+    }
+  },
+  "SearchCreativeWork": {
+    "precision": 0.8761467889908257,
+    "recall": 0.9182692307692307,
+    "f1-score": 0.8967136150234742,
+    "support": 208,
+    "confused_with": {
+      "PlayMusic": 12,
+      "SearchScreeningEvent": 3
+    }
+  },
+  "accuracy": 0.9411943013034253,
+  "macro avg": {
+    "precision": 0.8634138185746462,
+    "recall": 0.8706512271100372,
+    "f1-score": 0.8628740938507484,
+    "support": 3299
+  },
+  "weighted avg": {
+    "precision": 0.9397820399248183,
+    "recall": 0.9411943013034253,
+    "f1-score": 0.9381979630868862,
+    "support": 3299
+  },
+  "micro avg": {
+    "precision": 0.9411943013034253,
+    "recall": 0.9411943013034253,
+    "f1-score": 0.9411943013034253,
+    "support": 3299
+  }
+}

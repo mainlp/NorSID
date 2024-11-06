@@ -1,0 +1,1554 @@
+[
+  {
+    "text": "Lægg tel den her sangen tel in the arms of a woman .",
+    "intent": "AddToPlaylist",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.7746928334236145
+    }
+  },
+  {
+    "text": "Eg ville gjerne ha lagt te dette albumet i funtime.",
+    "intent": "AddToPlaylist",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.9837236404418945
+    }
+  },
+  {
+    "text": "Plis ta på en aen sang i klesvasklistå.",
+    "intent": "AddToPlaylist",
+    "intent_prediction": {
+      "name": "weather__find",
+      "confidence": 0.4661485552787781
+    }
+  },
+  {
+    "text": "Vær så snill å put enda en låt te klesvask spillelista.",
+    "intent": "AddToPlaylist",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9754856824874878
+    }
+  },
+  {
+    "text": "Æ vil lægge det hær albumet tel funtime.",
+    "intent": "AddToPlaylist",
+    "intent_prediction": {
+      "name": "weather__find",
+      "confidence": 0.9998958110809326
+    }
+  },
+  {
+    "text": "e tannlegetimen min i påminnelsan?",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9953534603118896
+    }
+  },
+  {
+    "text": "e tannlegetimen min i påminnelsan mine?",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9433623552322388
+    }
+  },
+  {
+    "text": "E tannlegetimen min i påminnelsan mine ?",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9417311549186707
+    }
+  },
+  {
+    "text": "E tannlegetimen min i påminnelsen min?",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.7018235325813293
+    }
+  },
+  {
+    "text": "Er tannlegeavtalen min blant påminnelsene mine?",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9806542992591858
+    }
+  },
+  {
+    "text": "Har eg ein påminnelse for tannlegetimen min?",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9666078090667725
+    }
+  },
+  {
+    "text": "E tannlegetimen min i påminnelsan mine ?",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9417311549186707
+    }
+  },
+  {
+    "text": "E tannlegetimen min i påminnelser?",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9800990223884583
+    }
+  },
+  {
+    "text": "har e nån alarma på?",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.9394761323928833
+    }
+  },
+  {
+    "text": "Er tannlegetimen min i påminnelsene mine?",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.8807997107505798
+    }
+  },
+  {
+    "text": "E tannlegetimen min i påminnelsen ?",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9525400996208191
+    }
+  },
+  {
+    "text": "Spill ei låt av Houston på Spotify",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.5484228730201721
+    }
+  },
+  {
+    "text": "Spæl en snag av Houston på spotify.",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.4122682809829712
+    }
+  },
+  {
+    "text": "spell en låt av Houston på Spotify",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9160776138305664
+    }
+  },
+  {
+    "text": "Spæll albumet Vibrations av Marion Elise Raven.",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.9040232300758362
+    }
+  },
+  {
+    "text": "Speil ablumet Vibrations av Marion Elise Raven",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.8724373579025269
+    }
+  },
+  {
+    "text": "Spel albumet Vibrations av Marion Elise Raven",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.9588481783866882
+    }
+  },
+  {
+    "text": "spell ein låt fra to tusen å fire",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.9686957597732544
+    }
+  },
+  {
+    "text": "Spel ein sang av Houston på Spotify",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.3952304422855377
+    }
+  },
+  {
+    "text": "Spill toplista til Joseph Utsler.",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "AddToPlaylist",
+      "confidence": 0.6077008843421936
+    }
+  },
+  {
+    "text": "spell albummet Vibrations av Marion Elise Raven",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.8167526721954346
+    }
+  },
+  {
+    "text": "Spel sangene te Joseph Utsler som e på topp",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "AddToPlaylist",
+      "confidence": 0.8407736420631409
+    }
+  },
+  {
+    "text": "Spæll sanga av Joseph Utsler.",
+    "intent": "PlayMusic",
+    "intent_prediction": {
+      "name": "AddToPlaylist",
+      "confidence": 0.32785648107528687
+    }
+  },
+  {
+    "text": "Komme d t å blåsa kl 16 i NY ?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9011460542678833
+    }
+  },
+  {
+    "text": "Skal det snøve her ej e no før tredje mars?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.5258474946022034
+    }
+  },
+  {
+    "text": "Ka e vermeldingå i Guinea-Bissau?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.25842782855033875
+    }
+  },
+  {
+    "text": "Kjem vinden t å ro se ned her e e ved middagstid?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.4203512966632843
+    }
+  },
+  {
+    "text": "Trettende mai, 2037 koss vil det bli i Wilderville, Montenegro",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "BookRestaurant",
+      "confidence": 0.5498293042182922
+    }
+  },
+  {
+    "text": "usikker",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9347814321517944
+    }
+  },
+  {
+    "text": "Ka slaks klea har æ før vere?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.21125832200050354
+    }
+  },
+  {
+    "text": "Vill det sny her 3 mars?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.3428504765033722
+    }
+  },
+  {
+    "text": "På den trettende mai",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.24023781716823578
+    }
+  },
+  {
+    "text": "Kan du fortelle mej vermeldinga for Guinea-Bissau.",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.13136817514896393
+    }
+  },
+  {
+    "text": "Veret i Tioga Colorado",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.7934488654136658
+    }
+  },
+  {
+    "text": "Kommer vinden til å gi seg der eg e ved middagstid?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.5032047033309937
+    }
+  },
+  {
+    "text": "Kan du gi mej veret for her.",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.9008933305740356
+    }
+  },
+  {
+    "text": "Ka vervarsling he ej?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.2597582936286926
+    }
+  },
+  {
+    "text": "Ka e vere i nerheden av Triumph",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.898738443851471
+    }
+  },
+  {
+    "text": "Ka farevarsler har eg?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5895260572433472
+    }
+  },
+  {
+    "text": "Komme vinden te å avta på min nåværende plass innen kveldsmat tid?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9138119220733643
+    }
+  },
+  {
+    "text": "Kommer vinden te å stilna her eg e nå innen middagstid?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.5127454996109009
+    }
+  },
+  {
+    "text": "kjem vinden te å ro sæ ned på min nåværende plassering te kveldsmat?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "BookRestaurant",
+      "confidence": 0.8796127438545227
+    }
+  },
+  {
+    "text": "Koss e det i Wilderville, Montenegro den trettende mai, 2037?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "BookRestaurant",
+      "confidence": 0.9291155338287354
+    }
+  },
+  {
+    "text": "Veret i Tioga Colorado.",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.7934488654136658
+    }
+  },
+  {
+    "text": "e d minusgrader idag?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.3173513114452362
+    }
+  },
+  {
+    "text": "Book på The Halal Guys den 17. okt.",
+    "intent": "BookRestaurant",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.25491276383399963
+    }
+  },
+  {
+    "text": "stacy watson og adriana vil dra t det ebste osteriet i Hallowell Minnesota i ettermiddag",
+    "intent": "BookRestaurant",
+    "intent_prediction": {
+      "name": "weather__find",
+      "confidence": 0.4337136447429657
+    }
+  },
+  {
+    "text": "book på The Halal Guys den 17. oktober",
+    "intent": "BookRestaurant",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.3082367181777954
+    }
+  },
+  {
+    "text": "Finn tidsplanen til Ghost World.",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9653857946395874
+    }
+  },
+  {
+    "text": "Finn Vegucated som starte ved midnatt.",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9503688216209412
+    }
+  },
+  {
+    "text": "Finn programmet for ArcLight Hollywood",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.5980445146560669
+    }
+  },
+  {
+    "text": "finn Vegucated, start 1200",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.985586404800415
+    }
+  },
+  {
+    "text": "finn et film teater m Life and Death",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.7091171741485596
+    }
+  },
+  {
+    "text": "Finn Vegucated som starte 12",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9859434366226196
+    }
+  },
+  {
+    "text": "Kan e sjå filmen schedules?",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9557490944862366
+    }
+  },
+  {
+    "text": "Finn timeplana for Ghost World",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9531680345535278
+    }
+  },
+  {
+    "text": "Kordan filma er det som går i nærheita av mæ?",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "weather__find",
+      "confidence": 0.8765838742256165
+    }
+  },
+  {
+    "text": "Eg vil se visningtidene te Silly Movie 2.0 på The movie house",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.4595286250114441
+    }
+  },
+  {
+    "text": "Vis meg tidene te Ghost World",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9983295798301697
+    }
+  },
+  {
+    "text": "finn Vegucated som starte vd midnatt",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9896308779716492
+    }
+  },
+  {
+    "text": "finn Vegucated fra kl 0.00",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.8634384274482727
+    }
+  },
+  {
+    "text": "Finn spilletiden førr Ghost World.",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9964869022369385
+    }
+  },
+  {
+    "text": "finn Vegucated som starte klokka tolv",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.992035448551178
+    }
+  },
+  {
+    "text": "finn Vegucated som starte klokkå tolv",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.994403600692749
+    }
+  },
+  {
+    "text": "Finn Vegacuted som starter klokka tolv.",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9857326149940491
+    }
+  },
+  {
+    "text": "Finn en plan før Ghost World.",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9960582256317139
+    }
+  },
+  {
+    "text": "Finn Vegucated og begynn klokka tolv.",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9898195862770081
+    }
+  },
+  {
+    "text": "Finn Vegucated fra klokkå tolv på dagen",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9370302557945251
+    }
+  },
+  {
+    "text": "Finn timeplana for Ghost World",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9531680345535278
+    }
+  },
+  {
+    "text": "Sett en alarm for å da te matbutikken seinere",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9999468326568604
+    }
+  },
+  {
+    "text": "Æ træng en alarm for kl 17 for å minn mæ på å ta medisinen min",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.6662524938583374
+    }
+  },
+  {
+    "text": "Eg trenge ein alarm for kl. 17 for å minne meg på å ta medisinene mine",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.5430816411972046
+    }
+  },
+  {
+    "text": "kanseller alle alarmer",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8759861588478088
+    }
+  },
+  {
+    "text": "kanseller alarmen min for i mårå tidlig",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8600618243217468
+    }
+  },
+  {
+    "text": "Kanseller alarmen for i morga tidlig.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.7411695122718811
+    }
+  },
+  {
+    "text": "Kanseller alarm i morgen tidlig",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.7755296230316162
+    }
+  },
+  {
+    "text": "Abryt alarmen for denna ettermiddagen.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.46314606070518494
+    }
+  },
+  {
+    "text": "kanseller alarmen",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5671050548553467
+    }
+  },
+  {
+    "text": "Kanseller alarmen min i morra tidlig.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.9053855538368225
+    }
+  },
+  {
+    "text": "Kanseller alle alarmer",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8674383163452148
+    }
+  },
+  {
+    "text": "Kanseller alle alarma.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5232985615730286
+    }
+  },
+  {
+    "text": "Kanseller alle alarmene for i morga?",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8633215427398682
+    }
+  },
+  {
+    "text": "Kanseller alarmen for i mårå tidlig",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.6860604286193848
+    }
+  },
+  {
+    "text": "kanseller alle alarmer",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8759861588478088
+    }
+  },
+  {
+    "text": "kanseller alarmen min for i mårå tidlig",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8600618243217468
+    }
+  },
+  {
+    "text": "Kanseller alarmer",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.9025819897651672
+    }
+  },
+  {
+    "text": "Kanseller alarmen min på lørdag.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.6539670825004578
+    }
+  },
+  {
+    "text": "Kanseller alarmen min i morra tidlig.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.9053855538368225
+    }
+  },
+  {
+    "text": "Slett påminnelsen min for lørdag",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "reminder__cancel_reminder",
+      "confidence": 0.9979135394096375
+    }
+  },
+  {
+    "text": "Kanseller alarmen i ettermiddag.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5404571890830994
+    }
+  },
+  {
+    "text": "Kanseller alarmene.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8061991930007935
+    }
+  },
+  {
+    "text": "Nullstill alle alarmer som er satt",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.7702035307884216
+    }
+  },
+  {
+    "text": "kanseller alarmen min i morgen tidlig.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8988460302352905
+    }
+  },
+  {
+    "text": "kanseller alarmen min i morgen tidlig",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8988460302352905
+    }
+  },
+  {
+    "text": "Kanseller alarmen min på lørdag.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.6539670825004578
+    }
+  },
+  {
+    "text": "Kanseller alle alarma.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5232985615730286
+    }
+  },
+  {
+    "text": "Kanseller alle alarma.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5232985615730286
+    }
+  },
+  {
+    "text": "Kanseller alarmen min for i morga tidlig.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8736818432807922
+    }
+  },
+  {
+    "text": "Fjærn alle, sett alarman.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9938111901283264
+    }
+  },
+  {
+    "text": "Kanseller alle alarma.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5232985615730286
+    }
+  },
+  {
+    "text": "kanseller alle alarmer",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8759861588478088
+    }
+  },
+  {
+    "text": "Kanseller alarmen min på søndag.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.758850634098053
+    }
+  },
+  {
+    "text": "Kanseller alarmen for denne ettermiddagen.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.7104907035827637
+    }
+  },
+  {
+    "text": "Kanseller alle alarmer",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8674383163452148
+    }
+  },
+  {
+    "text": "Kanseller alarmen min i morra tidlig.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.9053855538368225
+    }
+  },
+  {
+    "text": "kanseller alarmen",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5671050548553467
+    }
+  },
+  {
+    "text": "Kanseller alarmer",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.9025819897651672
+    }
+  },
+  {
+    "text": "Kanseller dinna ettermiddagen sin alarm.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.7451974153518677
+    }
+  },
+  {
+    "text": "Kanseller alarmen min på lørdag",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.6539670825004578
+    }
+  },
+  {
+    "text": "Kanseller alarma",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5497008562088013
+    }
+  },
+  {
+    "text": "Kanseller alarmen.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5320910811424255
+    }
+  },
+  {
+    "text": "Kanseller alle alarma.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5232985615730286
+    }
+  },
+  {
+    "text": "Kanseller alarmen.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5320910811424255
+    }
+  },
+  {
+    "text": "kanseller alle alarmer",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8759861588478088
+    }
+  },
+  {
+    "text": "Kanseller alarmen.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5320910811424255
+    }
+  },
+  {
+    "text": "Kanseller alle alarma.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5232985615730286
+    }
+  },
+  {
+    "text": "Eg vil hørra på albumet Since I Saw you Last",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9427223205566406
+    }
+  },
+  {
+    "text": "Ønske å høre albume Since I Saw You Last",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9641644954681396
+    }
+  },
+  {
+    "text": "Æ vil høre albumet Since I Saw You Last.",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9792228937149048
+    }
+  },
+  {
+    "text": "Ej vil høre på musikken fra Ghost in the Shell: Stand Alone Complex.",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9562657475471497
+    }
+  },
+  {
+    "text": "finn The Ultimate Gift",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.610066831111908
+    }
+  },
+  {
+    "text": "Eg hadde likt å se sagaen 12 Soulful Nights of Christmas",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.4537501037120819
+    }
+  },
+  {
+    "text": "Ønsker å høre albumet Since I Saw You Last",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9576754570007324
+    }
+  },
+  {
+    "text": "Vil hørra albumet Since i Saw You Last",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9209489226341248
+    }
+  },
+  {
+    "text": "E vil hør albumet Since I saw You Last",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9788944721221924
+    }
+  },
+  {
+    "text": "Visninger av From South Africa to South Carolina",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.5461340546607971
+    }
+  },
+  {
+    "text": "Æ har løst å høre på musikken Ghost in the Shell: Stand Alone Complex.",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.505607545375824
+    }
+  },
+  {
+    "text": "Ønsker å høre på albumet Since I Saw You Last",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9844770431518555
+    }
+  },
+  {
+    "text": "vis fram Fra Sør Afrika te Sør Carolina",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.4392106831073761
+    }
+  },
+  {
+    "text": "Æ vil høre albumet Since I Saw You Last.",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9792228937149048
+    }
+  },
+  {
+    "text": "Ej skulle gjerne sett saga 12 Soulful nights of Christmas.",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.3274507224559784
+    }
+  },
+  {
+    "text": "I villa likt å se sagaen 12 Soulful Nights of Christmas",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "RateBook",
+      "confidence": 0.6544097065925598
+    }
+  },
+  {
+    "text": "Ej vil høre på albumet Since I saw you Las,",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9953792095184326
+    }
+  },
+  {
+    "text": "Kanseller alle påminnelsene mine.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.9220871925354004
+    }
+  },
+  {
+    "text": "Kanseller påminnelsen min om å sende melding til han Pappa.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.6512438058853149
+    }
+  },
+  {
+    "text": "Kanseller påminnelsen min om å tekste pappa",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.743681013584137
+    }
+  },
+  {
+    "text": "Kanseller den siste påminnelsen min.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.8950923085212708
+    }
+  },
+  {
+    "text": "Slett alle alarmer",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.9993190765380859
+    }
+  },
+  {
+    "text": "Kanseller min siste påminnelse",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.9445548057556152
+    }
+  },
+  {
+    "text": "Kanseller alle påminnelsa.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.5275626182556152
+    }
+  },
+  {
+    "text": "Kanseller morgendagens påminnelser",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.8732808828353882
+    }
+  },
+  {
+    "text": "Skru av påminnlesen om møte på hytta.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9988141059875488
+    }
+  },
+  {
+    "text": "Kanseller alle påminnelser",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.6764524579048157
+    }
+  },
+  {
+    "text": "Kanseller påminnelsen min om å tekste pappa.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.743681013584137
+    }
+  },
+  {
+    "text": "Kanseller påminnelsan æ har satt førr i morra.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.9679621458053589
+    }
+  },
+  {
+    "text": "Kanseller den siste påminnelsen min",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.8950923085212708
+    }
+  },
+  {
+    "text": "Kanseller påminnelsen min om å sende melding te pappa",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.8631306290626526
+    }
+  },
+  {
+    "text": "Kanseller den siste påminnelsen min.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.8950923085212708
+    }
+  },
+  {
+    "text": "Kanseller alle påminnela.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.6781386137008667
+    }
+  },
+  {
+    "text": "kanseller alle påminnelsene mine",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.921218991279602
+    }
+  },
+  {
+    "text": "Kanseller påminnelsen for møtet på hytten",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.6492424011230469
+    }
+  },
+  {
+    "text": "Kanseller alle påminellser",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.7713026404380798
+    }
+  },
+  {
+    "text": "kanseller alle påminnelser",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.6760257482528687
+    }
+  },
+  {
+    "text": "Kanseller imorgens påminnelser",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.8694642186164856
+    }
+  },
+  {
+    "text": "Kanseller påminnelsene for i morga.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.918018102645874
+    }
+  },
+  {
+    "text": "Kanseller alle påminnelsene.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.7271738648414612
+    }
+  },
+  {
+    "text": "Kanseller påminnelsen min om møtet på hytta.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.4335264265537262
+    }
+  },
+  {
+    "text": "Skru av påminnelsen min om å ringe pappa.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.801827073097229
+    }
+  },
+  {
+    "text": "kanseller alle påminellser",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.7854607105255127
+    }
+  },
+  {
+    "text": "Kanseller alle påminnelsene mine.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.9220871925354004
+    }
+  },
+  {
+    "text": "Kanseller alle påminnelsa.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.5275626182556152
+    }
+  },
+  {
+    "text": "Skru av påminnelsen om å senda melding t pappa",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9861446619033813
+    }
+  },
+  {
+    "text": "Kanseller påminnelsen om møtet på hytta.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.699516773223877
+    }
+  },
+  {
+    "text": "Kanseller alle påminnelsene mine.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.9220871925354004
+    }
+  },
+  {
+    "text": "Slætt påminnelsen om å plokke opp Patrick etter skoln i mårra.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.6374967694282532
+    }
+  },
+  {
+    "text": "Kanseller alle påminnelser",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.6764524579048157
+    }
+  },
+  {
+    "text": "Slumre alle alarman",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.6168208122253418
+    }
+  },
+  {
+    "text": "Slumre alle alarma.",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7221357822418213
+    }
+  },
+  {
+    "text": "Slumre alarm",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7244457602500916
+    }
+  },
+  {
+    "text": "Slumr alle alarmer",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.6624678373336792
+    }
+  },
+  {
+    "text": "Slumre alle alarma",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7221357822418213
+    }
+  },
+  {
+    "text": "Slumre alarm",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7244457602500916
+    }
+  },
+  {
+    "text": "Slumre alarman.",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.6366279125213623
+    }
+  },
+  {
+    "text": "Slumra alarmen",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.8648735284805298
+    }
+  },
+  {
+    "text": "Slumre alarm",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7244457602500916
+    }
+  },
+  {
+    "text": "Slumre alle alarmene mine.",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5621963143348694
+    }
+  },
+  {
+    "text": "Slumre alarm",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7244457602500916
+    }
+  },
+  {
+    "text": "Utsett alarm",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9895403981208801
+    }
+  },
+  {
+    "text": "Slumra alle alarmene",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.8031905293464661
+    }
+  },
+  {
+    "text": "Slummre alarm.",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7903876900672913
+    }
+  },
+  {
+    "text": "Slumre alarmen",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7524232268333435
+    }
+  },
+  {
+    "text": "Slumre alle alarmer",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.5757669806480408
+    }
+  },
+  {
+    "text": "Slumre alle alarma",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7221357822418213
+    }
+  },
+  {
+    "text": "Slumre alarmen.",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7524232268333435
+    }
+  },
+  {
+    "text": "Slumre alarmen",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7524232268333435
+    }
+  },
+  {
+    "text": "Slumre alarmen.",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7524232268333435
+    }
+  },
+  {
+    "text": "Slumre alle alarmer",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.5757669806480408
+    }
+  },
+  {
+    "text": "Slumre alle alarmer",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.5757669806480408
+    }
+  },
+  {
+    "text": "Endra alarmen for i mårå tidligt te klokkå seks",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.695810079574585
+    }
+  }
+]

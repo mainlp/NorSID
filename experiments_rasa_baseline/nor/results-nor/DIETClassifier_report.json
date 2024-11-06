@@ -1,0 +1,338 @@
+{
+  "datetime": {
+    "precision": 0.8045897079276774,
+    "recall": 0.739297124600639,
+    "f1-score": 0.7705627705627706,
+    "support": 3130,
+    "confused_with": {
+      "location": 59
+    }
+  },
+  "served_dish": {
+    "precision": 0.40816326530612246,
+    "recall": 0.38461538461538464,
+    "f1-score": 0.39603960396039606,
+    "support": 52,
+    "confused_with": {
+      "location": 12,
+      "party_size_description": 9
+    }
+  },
+  "object_select": {
+    "precision": 0.7333333333333333,
+    "recall": 0.22916666666666666,
+    "f1-score": 0.3492063492063492,
+    "support": 96,
+    "confused_with": {
+      "object_type": 38
+    }
+  },
+  "cuisine": {
+    "precision": 0.09090909090909091,
+    "recall": 0.10526315789473684,
+    "f1-score": 0.0975609756097561,
+    "support": 19,
+    "confused_with": {
+      "location": 17
+    }
+  },
+  "object_name": {
+    "precision": 0.7904676258992805,
+    "recall": 0.729460580912863,
+    "f1-score": 0.7587397496763055,
+    "support": 1205,
+    "confused_with": {
+      "location": 52
+    }
+  },
+  "facility": {
+    "precision": 1.0,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.9166666666666666,
+    "support": 13,
+    "confused_with": {}
+  },
+  "object_type": {
+    "precision": 0.5604166666666667,
+    "recall": 0.736986301369863,
+    "f1-score": 0.6366863905325445,
+    "support": 365,
+    "confused_with": {
+      "object_name": 27
+    }
+  },
+  "movie_name": {
+    "precision": 0.6481481481481481,
+    "recall": 0.6624605678233438,
+    "f1-score": 0.6552262090483618,
+    "support": 317,
+    "confused_with": {
+      "object_name": 28
+    }
+  },
+  "best_rating": {
+    "precision": 0.8476190476190476,
+    "recall": 0.8240740740740741,
+    "f1-score": 0.8356807511737089,
+    "support": 108,
+    "confused_with": {
+      "rating_value": 19
+    }
+  },
+  "entity_name": {
+    "precision": 0.4411764705882353,
+    "recall": 0.4090909090909091,
+    "f1-score": 0.4245283018867924,
+    "support": 110,
+    "confused_with": {
+      "artist": 33,
+      "playlist": 32
+    }
+  },
+  "rating_value": {
+    "precision": 0.7044334975369458,
+    "recall": 0.8827160493827161,
+    "f1-score": 0.7835616438356164,
+    "support": 162,
+    "confused_with": {
+      "best_rating": 9
+    }
+  },
+  "music_item": {
+    "precision": 0.45618556701030927,
+    "recall": 0.7866666666666666,
+    "f1-score": 0.5774877650897227,
+    "support": 225,
+    "confused_with": {
+      "artist": 13,
+      "object_type": 12
+    }
+  },
+  "rating_unit": {
+    "precision": 0.6971428571428572,
+    "recall": 0.9457364341085271,
+    "f1-score": 0.8026315789473685,
+    "support": 129,
+    "confused_with": {
+      "rating_value": 1
+    }
+  },
+  "restaurant": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "restaurant_type": 1
+    }
+  },
+  "refe": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "location": {
+    "precision": 0.7060167555217061,
+    "recall": 0.8005181347150259,
+    "f1-score": 0.7503035208417644,
+    "support": 1158,
+    "confused_with": {
+      "datetime": 46
+    }
+  },
+  "condition_description": {
+    "precision": 0.2857142857142857,
+    "recall": 0.5858585858585859,
+    "f1-score": 0.3841059602649007,
+    "support": 99,
+    "confused_with": {
+      "weather__attribute": 19,
+      "condition_temperature": 9
+    }
+  },
+  "weather__attribute": {
+    "precision": 0.3140947752126367,
+    "recall": 0.8777589134125636,
+    "f1-score": 0.4626398210290828,
+    "support": 589,
+    "confused_with": {
+      "condition_description": 13
+    }
+  },
+  "recurring_datetime": {
+    "precision": 0.9230769230769231,
+    "recall": 0.47706422018348627,
+    "f1-score": 0.6290322580645161,
+    "support": 327,
+    "confused_with": {
+      "datetime": 92
+    }
+  },
+  "restaurant_type": {
+    "precision": 0.47318611987381703,
+    "recall": 0.8620689655172413,
+    "f1-score": 0.6109979633401222,
+    "support": 174,
+    "confused_with": {
+      "restaurant_name": 9,
+      "served_dish": 4
+    }
+  },
+  "movie_type": {
+    "precision": 0.6306306306306306,
+    "recall": 0.7368421052631579,
+    "f1-score": 0.6796116504854369,
+    "support": 95,
+    "confused_with": {
+      "movie_name": 13,
+      "object_location_type": 6
+    }
+  },
+  "condition_temperature": {
+    "precision": 0.22857142857142856,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.365296803652968,
+    "support": 44,
+    "confused_with": {
+      "location": 1
+    }
+  },
+  "party_size_number": {
+    "precision": 0.4973821989528796,
+    "recall": 0.6884057971014492,
+    "f1-score": 0.5775075987841946,
+    "support": 138,
+    "confused_with": {
+      "datetime": 18
+    }
+  },
+  "artist": {
+    "precision": 0.5406451612903226,
+    "recall": 0.8603696098562629,
+    "f1-score": 0.6640253565768621,
+    "support": 487,
+    "confused_with": {
+      "object_name": 26,
+      "entity_name": 19
+    }
+  },
+  "reminder__todo": {
+    "precision": 0.67007299270073,
+    "recall": 0.8285198555956679,
+    "f1-score": 0.7409200968523001,
+    "support": 554,
+    "confused_with": {
+      "datetime": 13
+    }
+  },
+  "track": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 11,
+    "confused_with": {
+      "artist": 11
+    }
+  },
+  "party_size_description": {
+    "precision": 0.6722222222222223,
+    "recall": 0.5789473684210527,
+    "f1-score": 0.622107969151671,
+    "support": 209,
+    "confused_with": {
+      "artist": 34
+    }
+  },
+  "object_location_type": {
+    "precision": 0.5094339622641509,
+    "recall": 0.8059701492537313,
+    "f1-score": 0.6242774566473989,
+    "support": 67,
+    "confused_with": {
+      "movie_type": 5
+    }
+  },
+  "playlist": {
+    "precision": 0.7013698630136986,
+    "recall": 0.7710843373493976,
+    "f1-score": 0.7345767575322814,
+    "support": 664,
+    "confused_with": {
+      "artist": 74
+    }
+  },
+  "restaurant_name": {
+    "precision": 0.5051546391752577,
+    "recall": 0.6533333333333333,
+    "f1-score": 0.5697674418604651,
+    "support": 75,
+    "confused_with": {
+      "location": 11
+    }
+  },
+  "sort": {
+    "precision": 0.6153846153846154,
+    "recall": 0.6530612244897959,
+    "f1-score": 0.6336633663366337,
+    "support": 147,
+    "confused_with": {
+      "datetime": 12
+    }
+  },
+  "album": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 33,
+    "confused_with": {
+      "artist": 22,
+      "music_item": 6
+    }
+  },
+  "genre": {
+    "precision": 0.5263157894736842,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.6666666666666666,
+    "support": 11,
+    "confused_with": {}
+  },
+  "reference": {
+    "precision": 0.3977272727272727,
+    "recall": 0.13671875,
+    "f1-score": 0.20348837209302326,
+    "support": 512,
+    "confused_with": {
+      "playlist": 48
+    }
+  },
+  "service": {
+    "precision": 0.9342105263157895,
+    "recall": 0.8554216867469879,
+    "f1-score": 0.8930817610062893,
+    "support": 166,
+    "confused_with": {
+      "object_name": 8
+    }
+  },
+  "micro avg": {
+    "precision": 0.6292340555386023,
+    "recall": 0.7176542243104498,
+    "f1-score": 0.6705418478923619,
+    "support": 11493
+  },
+  "macro avg": {
+    "precision": 0.5232512982917077,
+    "recall": 0.6077660748182798,
+    "f1-score": 0.5376185593537983,
+    "support": 11493
+  },
+  "weighted avg": {
+    "precision": 0.6747894106635688,
+    "recall": 0.7176542243104498,
+    "f1-score": 0.6762648226606031,
+    "support": 11493
+  },
+  "accuracy": 0.7271681524998973
+}
