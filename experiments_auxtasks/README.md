@@ -25,6 +25,13 @@ python3 machamp/train.py --dataset_configs configs/data_sidnor.json --parameters
 python3 machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sidnor --seed 8446
 ```
 
+## Preparing auxiliary data sets
+
+```
+python3 dataprep/ndc_prep.py 
+```
+
+
 ## other notes
 
 Change to Machamp: line 93 of machamp/machamp/model/machamp.py: added kwarg to allow loading norbert

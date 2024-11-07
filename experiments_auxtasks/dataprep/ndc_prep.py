@@ -41,7 +41,8 @@ interviewers = ['ms', 'jb', 'ifg', 'rvf', 'sb', 'lks', 'mn', 'sl', 'sr',
                 'amr', 'ran', 'mi', 'lh', 'mj', 'ahl', 'ks', 'amj', 'cbo',
                 'jbj', 'jk', 'bl', 'ta', 'pmk', 'aml', 'amg']
 lines = []
-for file in glob("../../data/ndc_phon_with_informant_codes/files/norwegian/*.txt"):
+for file in glob(
+        "../../data/ndc_phon_with_informant_codes/files/norwegian/*.txt"):
     with open(file) as f:
         for line in f:
             speaker, content = line.split(" ", 1)
@@ -76,6 +77,7 @@ for file in glob("../../data/ndc_phon_with_informant_codes/files/norwegian/*.txt
                 continue
             lines.append(" ".join(tokens_final))
 
+print("Writing ndc_dialect.txt")
 with open("../../data/ndc_dialect.txt", "w+", encoding="utf8") as f:
     for line in lines:
         f.write(line + "\n")
@@ -100,6 +102,7 @@ for file in glob("../../data/ndc_with_informant_codes/files/norwegian/*.txt"):
                 continue
             lines.append(" ".join(tokens_final))
 
+print("Writing ndc_bokmaal.txt")
 with open("../../data/ndc_bokmaal.txt", "w+", encoding="utf8") as f:
     for line in lines:
         f.write(line + "\n")
