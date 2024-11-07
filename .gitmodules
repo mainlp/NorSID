@@ -7,3 +7,6 @@
 [submodule "data/UD_Norwegian-NynorskLIA_dialect"]
 	path = data/UD_Norwegian-NynorskLIA_dialect
 	url = https://github.com/mainlp/UD_Norwegian-NynorskLIA_dialect
+[submodule "machamp"]
+	path = machamp
+	url = git@github.com:machamp-nlp/machamp.git
