@@ -1,9 +1,6 @@
 {
   "transformer_model": "vesteinn/ScandiBERT",
   "reset_transformer_model": false,
-  "random_seed": 1234,
-  "numpy_seed": 1234,
-  "pytorch_seed": 1234,
   "default_dec_dataset_embeds_dim": 12,
   "encoder": {
     "dropout": 0.2,
