@@ -11,6 +11,18 @@ Calculate the split word ratios (saved to `results/split_word_ratios.tsv`):
 python split_word_ratios.py
 ```
 
+The 0% noise option turned out to be best for mDeBERTa (this is already implemented as a baseline for experiments_auxtasks) and 20% for NorBERT and ScandiBERT. Train these two on the 20% noised data:
+```
+cd ..  # back to this folder
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor20a.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sidnor20 --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor20b.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sidnor20 --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor20c.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sidnor20 --seed 8446
+
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor20a.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sidnor20 --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor20b.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sidnor20 --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor20c.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sidnor20 --seed 8446
+```
+
 --
 
 ```
