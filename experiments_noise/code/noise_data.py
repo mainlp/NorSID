@@ -65,7 +65,7 @@ def add_random_noise(words, noise_lvl, alphabet,
 in_data = "../../data/NoMusic/NorSID/nb.projectedTrain.conll.fixed"
 alphabet = alphabet(in_data, 1)
 
-for noise_lvl in [0.05, 0.10, 0.15, 0.20, 0.25]:
+for noise_lvl in [0.05, 0.10, 0.15, 0.20, 0.25, 0.30]:
     for random_run in ["a", "b", "c"]:
         lines = []
         with open(in_data) as f_in:

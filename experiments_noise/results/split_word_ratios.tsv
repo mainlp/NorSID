@@ -53,4 +53,12 @@ FILE	TOKENIZER	SPLIT WORD RATIO
 ../../data/nb_projectedTrain_noise_25c.conll	microsoft/mdeberta-v3-base	0.5506889952435295
 ../../data/nb_projectedTrain_noise_25c.conll	ltg/norbert3-base	0.23612794404291143
 ../../data/nb_projectedTrain_noise_25c.conll	vesteinn/ScandiBERT	0.2601432543930266
-
+../../data/nb_projectedTrain_noise_30a.conll	microsoft/mdeberta-v3-base	0.5677656973846784
+../../data/nb_projectedTrain_noise_30a.conll	ltg/norbert3-base	0.26318055420400627
+../../data/nb_projectedTrain_noise_30a.conll	vesteinn/ScandiBERT	0.28531155913740686
+../../data/nb_projectedTrain_noise_30c.conll	microsoft/mdeberta-v3-base	0.567942627470755
+../../data/nb_projectedTrain_noise_30c.conll	ltg/norbert3-base	0.2643070090853599
+../../data/nb_projectedTrain_noise_30c.conll	vesteinn/ScandiBERT	0.28582465638702864
+../../data/nb_projectedTrain_noise_30b.conll	microsoft/mdeberta-v3-base	0.5687122733451877
+../../data/nb_projectedTrain_noise_30b.conll	ltg/norbert3-base	0.26442791131084553
+../../data/nb_projectedTrain_noise_30b.conll	vesteinn/ScandiBERT	0.28647045120120784
