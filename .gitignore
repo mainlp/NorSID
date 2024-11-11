@@ -3,3 +3,7 @@
 */logs/*/*/*.txt
 */logs/*/*/vocabularies/*
 !*/logs/*/*/metrics.json
+.python-version
+.idea
+.rasa
+models
