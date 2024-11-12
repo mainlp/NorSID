@@ -1,1 +1,0 @@
-python train_mlm.py data/train.txt data/dev.txt
