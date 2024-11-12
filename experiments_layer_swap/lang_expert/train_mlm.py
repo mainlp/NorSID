@@ -209,8 +209,7 @@ class DataTrainingArguments:
             if self.validation_file is not None:
                 extension = self.validation_file.split(".")[-1]
                 if extension not in ["csv", "json", "txt"]:
-                    raise ValueError("`validation_file` should be a csv, a json or a txt file.")
-
+                    raise ValueError("`validation_file` should be a csv, a json or a txt file."
 
 def main():
     # See all possible arguments in src/transformers/training_args.py
