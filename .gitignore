@@ -4,6 +4,7 @@
 */logs/*/*/vocabularies/*
 !*/logs/*/*/metrics.json
 .python-version
+.DS_Store
 .idea
 .rasa
 models
