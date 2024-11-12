@@ -27,8 +27,17 @@ python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --paramet
 
 ## Preparing auxiliary data sets
 
+Download the Nordic Dialect Corpus as described in the main README, then run:
 ```
 python3 dataprep/ndc_prep.py 
+```
+
+To get the dialectal transcriptions of the LIA treebank, run:
+```
+cd ../data/UD_Norwegian-NynorskLIA_dialect
+./run.sh
+# This creates no_nynorsklia_dialect-ud-{train,dev,test}.conllu in the same folder
+cd ../experiments_auxtasks
 ```
 
 
