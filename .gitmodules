@@ -10,3 +10,6 @@
 [submodule "machamp"]
 	path = machamp
 	url = git@github.com:machamp-nlp/machamp.git
+[submodule "data/norne"]
+	path = data/norne
+	url = https://github.com/ltgoslo/norne.git
