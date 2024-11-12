@@ -1,0 +1,379 @@
+{
+  "cuisine": {
+    "precision": 0.939622641509434,
+    "recall": 0.7614678899082569,
+    "f1-score": 0.8412162162162162,
+    "support": 327,
+    "confused_with": {
+      "restaurant_type": 27
+    }
+  },
+  "movie_name": {
+    "precision": 0.9495049504950495,
+    "recall": 0.8516873889875666,
+    "f1-score": 0.897940074906367,
+    "support": 2252,
+    "confused_with": {
+      "object_location_type": 15
+    }
+  },
+  "timer__attributes": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "artist": {
+    "precision": 0.9268073641670409,
+    "recall": 0.9584397492454144,
+    "f1-score": 0.9423581782901496,
+    "support": 4307,
+    "confused_with": {
+      "music_item": 43
+    }
+  },
+  "object_type": {
+    "precision": 0.8723897911832946,
+    "recall": 0.9300024734108335,
+    "f1-score": 0.9002753501735903,
+    "support": 4043,
+    "confused_with": {
+      "object_select": 92
+    }
+  },
+  "recurring_datetime": {
+    "precision": 0.7860048820179008,
+    "recall": 0.8689655172413793,
+    "f1-score": 0.8254058672742809,
+    "support": 3335,
+    "confused_with": {
+      "datetime": 94
+    }
+  },
+  "best_rating": {
+    "precision": 0.9671610169491526,
+    "recall": 0.8995073891625616,
+    "f1-score": 0.9321082184788158,
+    "support": 1015,
+    "confused_with": {
+      "rating_value": 49
+    }
+  },
+  "object_location_type": {
+    "precision": 0.9045643153526971,
+    "recall": 0.9376344086021505,
+    "f1-score": 0.9208025343189018,
+    "support": 465,
+    "confused_with": {
+      "movie_type": 5
+    }
+  },
+  "object_select": {
+    "precision": 0.8131720430107527,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.8293351610692256,
+    "support": 715,
+    "confused_with": {
+      "object_type": 55
+    }
+  },
+  "weather__temperatureUnit": {
+    "precision": 0.9752066115702479,
+    "recall": 0.8443649373881932,
+    "f1-score": 0.9050814956855224,
+    "support": 1118,
+    "confused_with": {
+      "datetime": 51
+    }
+  },
+  "alarm__alarm_modifier": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "recurring_datetime": 3,
+      "datetime": 2
+    }
+  },
+  "reference": {
+    "precision": 0.7127659574468085,
+    "recall": 0.513129102844639,
+    "f1-score": 0.5966921119592876,
+    "support": 914,
+    "confused_with": {
+      "playlist": 70
+    }
+  },
+  "movie_type": {
+    "precision": 0.9263521288837745,
+    "recall": 0.8974358974358975,
+    "f1-score": 0.911664779161948,
+    "support": 897,
+    "confused_with": {
+      "object_type": 25
+    }
+  },
+  "music_item": {
+    "precision": 0.898079184633477,
+    "recall": 0.9256565656565656,
+    "f1-score": 0.911659371269399,
+    "support": 2475,
+    "confused_with": {
+      "artist": 38
+    }
+  },
+  "restaurant_type": {
+    "precision": 0.8554720133667502,
+    "recall": 0.9499072356215214,
+    "f1-score": 0.9002197802197801,
+    "support": 2156,
+    "confused_with": {
+      "sort": 16
+    }
+  },
+  "genre": {
+    "precision": 0.9523809523809523,
+    "recall": 0.7117437722419929,
+    "f1-score": 0.8146639511201629,
+    "support": 281,
+    "confused_with": {
+      "artist": 19
+    }
+  },
+  "sort": {
+    "precision": 0.8682170542635659,
+    "recall": 0.8799102132435466,
+    "f1-score": 0.8740245261984392,
+    "support": 891,
+    "confused_with": {
+      "restaurant_type": 37
+    }
+  },
+  "album": {
+    "precision": 0.9421965317919075,
+    "recall": 0.6721649484536083,
+    "f1-score": 0.7845968712394705,
+    "support": 485,
+    "confused_with": {
+      "artist": 40
+    }
+  },
+  "rating_value": {
+    "precision": 0.8580456976178902,
+    "recall": 0.9083890890375708,
+    "f1-score": 0.8825,
+    "support": 1943,
+    "confused_with": {
+      "best_rating": 18
+    }
+  },
+  "playlist": {
+    "precision": 0.9368293176756428,
+    "recall": 0.8975751697381184,
+    "f1-score": 0.9167822468793343,
+    "support": 5155,
+    "confused_with": {
+      "entity_name": 70
+    }
+  },
+  "facility": {
+    "precision": 0.98,
+    "recall": 0.6837209302325581,
+    "f1-score": 0.8054794520547944,
+    "support": 215,
+    "confused_with": {
+      "restaurant_type": 36
+    }
+  },
+  "party_size_number": {
+    "precision": 0.8361498897869214,
+    "recall": 0.8379970544918999,
+    "f1-score": 0.8370724531077601,
+    "support": 1358,
+    "confused_with": {
+      "restaurant_type": 36
+    }
+  },
+  "track": {
+    "precision": 0.9686609686609686,
+    "recall": 0.6261510128913443,
+    "f1-score": 0.7606263982102909,
+    "support": 543,
+    "confused_with": {
+      "artist": 63
+    }
+  },
+  "datetime": {
+    "precision": 0.8894167326471365,
+    "recall": 0.8570048063474303,
+    "f1-score": 0.8729100022017018,
+    "support": 39323,
+    "confused_with": {
+      "recurring_datetime": 546
+    }
+  },
+  "served_dish": {
+    "precision": 0.9314285714285714,
+    "recall": 0.7874396135265701,
+    "f1-score": 0.8534031413612565,
+    "support": 414,
+    "confused_with": {
+      "restaurant_type": 25
+    }
+  },
+  "reminder__todo": {
+    "precision": 0.9341299740993643,
+    "recall": 0.939383176463624,
+    "f1-score": 0.9367492104719459,
+    "support": 16893,
+    "confused_with": {
+      "datetime": 345
+    }
+  },
+  "restaurant_name": {
+    "precision": 0.9650067294751009,
+    "recall": 0.8628158844765343,
+    "f1-score": 0.9110546378653114,
+    "support": 831,
+    "confused_with": {
+      "restaurant_type": 21
+    }
+  },
+  "party_size_description": {
+    "precision": 0.8428835489833642,
+    "recall": 0.9363449691991786,
+    "f1-score": 0.8871595330739299,
+    "support": 974,
+    "confused_with": {
+      "datetime": 5
+    }
+  },
+  "rating_unit": {
+    "precision": 0.935930735930736,
+    "recall": 0.9153259949195597,
+    "f1-score": 0.925513698630137,
+    "support": 1181,
+    "confused_with": {
+      "rating_value": 5
+    }
+  },
+  "condition_description": {
+    "precision": 0.7948717948717948,
+    "recall": 0.8927507447864945,
+    "f1-score": 0.8409728718428437,
+    "support": 1007,
+    "confused_with": {
+      "location": 39
+    }
+  },
+  "object_name": {
+    "precision": 0.9775342465753425,
+    "recall": 0.8355971896955503,
+    "f1-score": 0.9010101010101009,
+    "support": 8540,
+    "confused_with": {
+      "object_type": 196
+    }
+  },
+  "reminder__reminder_modifier": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "reminder__todo": 6
+    }
+  },
+  "entity_name": {
+    "precision": 0.9052183173588925,
+    "recall": 0.9224091155724362,
+    "f1-score": 0.9137328675087342,
+    "support": 1843,
+    "confused_with": {
+      "playlist": 27
+    }
+  },
+  "object_part_of_series_type": {
+    "precision": 0.9522184300341296,
+    "recall": 0.8584615384615385,
+    "f1-score": 0.9029126213592233,
+    "support": 325,
+    "confused_with": {
+      "object_select": 11
+    }
+  },
+  "location": {
+    "precision": 0.9349254896856901,
+    "recall": 0.8775348155387247,
+    "f1-score": 0.9053215287186113,
+    "support": 16372,
+    "confused_with": {
+      "datetime": 343
+    }
+  },
+  "weather__attribute": {
+    "precision": 0.8434727865850169,
+    "recall": 0.9345592897907419,
+    "f1-score": 0.8866829106879645,
+    "support": 15770,
+    "confused_with": {
+      "datetime": 198
+    }
+  },
+  "condition_temperature": {
+    "precision": 0.7860696517412935,
+    "recall": 0.9566094853683148,
+    "f1-score": 0.8629949931725078,
+    "support": 991,
+    "confused_with": {
+      "weather__attribute": 21,
+      "location": 11
+    }
+  },
+  "service": {
+    "precision": 0.9823899371069182,
+    "recall": 0.8935926773455377,
+    "f1-score": 0.9358897543439184,
+    "support": 874,
+    "confused_with": {
+      "artist": 22
+    }
+  },
+  "news__type": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "negation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 11,
+    "confused_with": {
+      "datetime": 1
+    }
+  },
+  "micro avg": {
+    "precision": 0.898274939630117,
+    "recall": 0.885837326032398,
+    "f1-score": 0.8920127795527155,
+    "support": 140256
+  },
+  "macro avg": {
+    "precision": 0.7886270064821895,
+    "recall": 0.7467958473370425,
+    "f1-score": 0.7631703227520481,
+    "support": 140256
+  },
+  "weighted avg": {
+    "precision": 0.9006165866447414,
+    "recall": 0.885837326032398,
+    "f1-score": 0.8916151997836818,
+    "support": 140256
+  },
+  "accuracy": 0.9014074960127592
+}

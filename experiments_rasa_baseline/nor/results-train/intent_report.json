@@ -1,0 +1,195 @@
+{
+  "reminder__set_reminder": {
+    "precision": 0.9868549172346641,
+    "recall": 0.9960687960687961,
+    "f1-score": 0.991440449987772,
+    "support": 4070,
+    "confused_with": {
+      "alarm__set_alarm": 5,
+      "reminder__show_reminders": 5
+    }
+  },
+  "alarm__cancel_alarm": {
+    "precision": 0.9325657894736842,
+    "recall": 0.9818181818181818,
+    "f1-score": 0.9565584141712358,
+    "support": 1155,
+    "confused_with": {
+      "alarm__set_alarm": 15,
+      "weather__find": 2
+    }
+  },
+  "weather__checkSunrise": {
+    "precision": 0.9846153846153847,
+    "recall": 0.9696969696969697,
+    "f1-score": 0.9770992366412214,
+    "support": 66,
+    "confused_with": {
+      "alarm__show_alarms": 2
+    }
+  },
+  "reminder__cancel_reminder": {
+    "precision": 0.9959072305593452,
+    "recall": 0.9681697612732095,
+    "f1-score": 0.9818426361802286,
+    "support": 754,
+    "confused_with": {
+      "reminder__set_reminder": 12,
+      "alarm__cancel_alarm": 9
+    }
+  },
+  "PlayMusic": {
+    "precision": 0.9946893255443441,
+    "recall": 0.9989333333333333,
+    "f1-score": 0.9968068121341138,
+    "support": 1875,
+    "confused_with": {
+      "weather__find": 1,
+      "SearchCreativeWork": 1
+    }
+  },
+  "alarm__snooze_alarm": {
+    "precision": 0.9595141700404858,
+    "recall": 0.8943396226415095,
+    "f1-score": 0.9257812500000001,
+    "support": 265,
+    "confused_with": {
+      "alarm__set_alarm": 16,
+      "alarm__cancel_alarm": 8
+    }
+  },
+  "alarm__set_alarm": {
+    "precision": 0.973250472845177,
+    "recall": 0.9758872934164183,
+    "f1-score": 0.9745670995670995,
+    "support": 3691,
+    "confused_with": {
+      "alarm__cancel_alarm": 52,
+      "alarm__modify_alarm": 13
+    }
+  },
+  "weather__checkSunset": {
+    "precision": 0.9879518072289156,
+    "recall": 0.9761904761904762,
+    "f1-score": 0.9820359281437125,
+    "support": 84,
+    "confused_with": {
+      "weather__find": 1,
+      "alarm__show_alarms": 1
+    }
+  },
+  "alarm__time_left_on_alarm": {
+    "precision": 0.9095477386934674,
+    "recall": 0.8418604651162791,
+    "f1-score": 0.8743961352657005,
+    "support": 215,
+    "confused_with": {
+      "alarm__show_alarms": 32,
+      "alarm__set_alarm": 2
+    }
+  },
+  "reminder__show_reminders": {
+    "precision": 0.9744525547445255,
+    "recall": 0.9335664335664335,
+    "f1-score": 0.9535714285714285,
+    "support": 572,
+    "confused_with": {
+      "reminder__set_reminder": 32,
+      "alarm__time_left_on_alarm": 2
+    }
+  },
+  "SearchScreeningEvent": {
+    "precision": 0.9941724941724942,
+    "recall": 0.9994141769185706,
+    "f1-score": 0.9967864446392053,
+    "support": 1707,
+    "confused_with": {
+      "SearchCreativeWork": 1
+    }
+  },
+  "SearchCreativeWork": {
+    "precision": 0.9962141698215251,
+    "recall": 0.9956756756756757,
+    "f1-score": 0.9959448499594485,
+    "support": 1850,
+    "confused_with": {
+      "PlayMusic": 6,
+      "RateBook": 1
+    }
+  },
+  "BookRestaurant": {
+    "precision": 0.9962666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9981298423724285,
+    "support": 1868,
+    "confused_with": {}
+  },
+  "alarm__modify_alarm": {
+    "precision": 0.9577464788732394,
+    "recall": 0.8585858585858586,
+    "f1-score": 0.9054593874833554,
+    "support": 396,
+    "confused_with": {
+      "alarm__set_alarm": 43,
+      "alarm__cancel_alarm": 10
+    }
+  },
+  "AddToPlaylist": {
+    "precision": 0.9989082969432315,
+    "recall": 0.9983633387888707,
+    "f1-score": 0.9986357435197818,
+    "support": 1833,
+    "confused_with": {
+      "PlayMusic": 3
+    }
+  },
+  "weather__find": {
+    "precision": 0.9996555287633483,
+    "recall": 0.996138333476358,
+    "f1-score": 0.9978938319363853,
+    "support": 11653,
+    "confused_with": {
+      "alarm__set_alarm": 7,
+      "alarm__show_alarms": 6
+    }
+  },
+  "alarm__show_alarms": {
+    "precision": 0.9147058823529411,
+    "recall": 0.9496183206106871,
+    "f1-score": 0.9318352059925094,
+    "support": 655,
+    "confused_with": {
+      "alarm__time_left_on_alarm": 13,
+      "alarm__set_alarm": 11
+    }
+  },
+  "RateBook": {
+    "precision": 0.9950522264980759,
+    "recall": 0.9988962472406181,
+    "f1-score": 0.9969705315340126,
+    "support": 1812,
+    "confused_with": {
+      "AddToPlaylist": 1,
+      "SearchCreativeWork": 1
+    }
+  },
+  "accuracy": 0.9882969786506764,
+  "macro avg": {
+    "precision": 0.9751150630595286,
+    "recall": 0.962956849134347,
+    "f1-score": 0.9686530682277579,
+    "support": 34521
+  },
+  "weighted avg": {
+    "precision": 0.9883698228007008,
+    "recall": 0.9882969786506764,
+    "f1-score": 0.9882415402427304,
+    "support": 34521
+  },
+  "micro avg": {
+    "precision": 0.9882969786506764,
+    "recall": 0.9882969786506764,
+    "f1-score": 0.9882969786506764,
+    "support": 34521
+  }
+}

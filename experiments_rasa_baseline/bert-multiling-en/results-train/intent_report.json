@@ -1,0 +1,186 @@
+{
+  "SearchScreeningEvent": {
+    "precision": 0.996606334841629,
+    "recall": 0.9988662131519275,
+    "f1-score": 0.9977349943374858,
+    "support": 1764,
+    "confused_with": {
+      "SearchCreativeWork": 2
+    }
+  },
+  "AddToPlaylist": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1836,
+    "confused_with": {}
+  },
+  "alarm__time_left_on_alarm": {
+    "precision": 0.9586206896551724,
+    "recall": 0.9455782312925171,
+    "f1-score": 0.952054794520548,
+    "support": 294,
+    "confused_with": {
+      "alarm__show_alarms": 15,
+      "alarm__snooze_alarm": 1
+    }
+  },
+  "weather__checkSunrise": {
+    "precision": 0.9886363636363636,
+    "recall": 0.9886363636363636,
+    "f1-score": 0.9886363636363636,
+    "support": 88,
+    "confused_with": {
+      "weather__checkSunset": 1
+    }
+  },
+  "alarm__set_alarm": {
+    "precision": 0.9741154120161482,
+    "recall": 0.9896260554885404,
+    "f1-score": 0.9818094782192437,
+    "support": 4145,
+    "confused_with": {
+      "alarm__cancel_alarm": 18,
+      "alarm__modify_alarm": 12
+    }
+  },
+  "reminder__show_reminders": {
+    "precision": 0.981651376146789,
+    "recall": 0.9771689497716894,
+    "f1-score": 0.9794050343249427,
+    "support": 657,
+    "confused_with": {
+      "reminder__set_reminder": 14,
+      "reminder__cancel_reminder": 1
+    }
+  },
+  "weather__find": {
+    "precision": 0.999922964332486,
+    "recall": 0.99930710601278,
+    "f1-score": 0.999614940315749,
+    "support": 12989,
+    "confused_with": {
+      "BookRestaurant": 3,
+      "SearchCreativeWork": 2
+    }
+  },
+  "alarm__cancel_alarm": {
+    "precision": 0.9779673063255153,
+    "recall": 0.9751948972360028,
+    "f1-score": 0.9765791341376864,
+    "support": 1411,
+    "confused_with": {
+      "alarm__set_alarm": 28,
+      "reminder__cancel_reminder": 3
+    }
+  },
+  "alarm__show_alarms": {
+    "precision": 0.9731182795698925,
+    "recall": 0.9439374185136897,
+    "f1-score": 0.9583057577763071,
+    "support": 767,
+    "confused_with": {
+      "alarm__set_alarm": 27,
+      "alarm__time_left_on_alarm": 11
+    }
+  },
+  "alarm__snooze_alarm": {
+    "precision": 0.971830985915493,
+    "recall": 0.9583333333333334,
+    "f1-score": 0.965034965034965,
+    "support": 288,
+    "confused_with": {
+      "alarm__set_alarm": 8,
+      "alarm__cancel_alarm": 3
+    }
+  },
+  "PlayMusic": {
+    "precision": 0.9994700582935877,
+    "recall": 1.0,
+    "f1-score": 0.9997349589186323,
+    "support": 1886,
+    "confused_with": {}
+  },
+  "reminder__set_reminder": {
+    "precision": 0.9932513858761147,
+    "recall": 0.9963733075435203,
+    "f1-score": 0.9948098974049486,
+    "support": 4136,
+    "confused_with": {
+      "reminder__show_reminders": 10,
+      "reminder__cancel_reminder": 3
+    }
+  },
+  "BookRestaurant": {
+    "precision": 0.9983965793693212,
+    "recall": 1.0,
+    "f1-score": 0.9991976464295266,
+    "support": 1868,
+    "confused_with": {}
+  },
+  "RateBook": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1826,
+    "confused_with": {}
+  },
+  "weather__checkSunset": {
+    "precision": 0.9915966386554622,
+    "recall": 0.9915966386554622,
+    "f1-score": 0.9915966386554622,
+    "support": 119,
+    "confused_with": {
+      "weather__find": 1
+    }
+  },
+  "SearchCreativeWork": {
+    "precision": 0.9978378378378379,
+    "recall": 0.9972987574284171,
+    "f1-score": 0.997568224804107,
+    "support": 1851,
+    "confused_with": {
+      "SearchScreeningEvent": 4,
+      "PlayMusic": 1
+    }
+  },
+  "reminder__cancel_reminder": {
+    "precision": 0.9917550058892816,
+    "recall": 0.9894242068155111,
+    "f1-score": 0.9905882352941177,
+    "support": 851,
+    "confused_with": {
+      "reminder__set_reminder": 5,
+      "alarm__cancel_alarm": 4
+    }
+  },
+  "alarm__modify_alarm": {
+    "precision": 0.967032967032967,
+    "recall": 0.8756218905472637,
+    "f1-score": 0.9190600522193211,
+    "support": 402,
+    "confused_with": {
+      "alarm__set_alarm": 45,
+      "alarm__cancel_alarm": 4
+    }
+  },
+  "accuracy": 0.9931142073269138,
+  "macro avg": {
+    "precision": 0.9867672325218924,
+    "recall": 0.9792757427459455,
+    "f1-score": 0.9828739508905228,
+    "support": 37178
+  },
+  "weighted avg": {
+    "precision": 0.993100849008888,
+    "recall": 0.9931142073269138,
+    "f1-score": 0.993070278756315,
+    "support": 37178
+  },
+  "micro avg": {
+    "precision": 0.9931142073269138,
+    "recall": 0.9931142073269138,
+    "f1-score": 0.9931142073269138,
+    "support": 37178
+  }
+}

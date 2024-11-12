@@ -1,0 +1,2050 @@
+[
+  {
+    "text": "what does the weekend look like",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.4446915090084076
+    }
+  },
+  {
+    "text": "How's the weekend look?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9897136688232422
+    }
+  },
+  {
+    "text": "Storm starting time?",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.9710398316383362
+    }
+  },
+  {
+    "text": "I need a time of 21 minutes from now for here",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.8059855103492737
+    }
+  },
+  {
+    "text": "book me a restaurant in Aransas Pass in seventeen hours",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "BookRestaurant",
+      "confidence": 0.9999582767486572
+    }
+  },
+  {
+    "text": "On oct. 26 , I will need to make reservations to eat in Halibut Point State Park .",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "BookRestaurant",
+      "confidence": 0.5780320763587952
+    }
+  },
+  {
+    "text": "I want to book a restaurant in 40 weeks in Iowa .",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "BookRestaurant",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "when is sunrise in AMerican Samoa",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "weather__checkSunrise",
+      "confidence": 0.6921502947807312
+    }
+  },
+  {
+    "text": "Book a restaurant on June the fifth in Cavour .",
+    "intent": "weather__find",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.1467093676328659
+    }
+  },
+  {
+    "text": "Set alarm to remind me to place gravel order",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.610987663269043
+    }
+  },
+  {
+    "text": "add alarm to tomorrows reminder",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9911094903945923
+    }
+  },
+  {
+    "text": "Repeat all of today's alarms for tomorrow",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.5404135584831238
+    }
+  },
+  {
+    "text": "reset the alarm",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.9473496675491333
+    }
+  },
+  {
+    "text": "delete snooze alarms",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.973173975944519
+    }
+  },
+  {
+    "text": "I need an alarm to reminds me to be out the door by 7 am",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.941057562828064
+    }
+  },
+  {
+    "text": "Reset alarm for the rest of the week",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.9487838745117188
+    }
+  },
+  {
+    "text": "Reset the alarm for tomorrow",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.9237909317016602
+    }
+  },
+  {
+    "text": "I need my alarm to go off at 2pm",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.5773065090179443
+    }
+  },
+  {
+    "text": "repeat alarm everyday this month",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.7294245958328247
+    }
+  },
+  {
+    "text": "make my alarm for thirty minutes instead of twenty minutes",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.9663760662078857
+    }
+  },
+  {
+    "text": "Please sound the alarm every 10 minutes until I turn you off",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7236132621765137
+    }
+  },
+  {
+    "text": "Reset my work alarm",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.56912761926651
+    }
+  },
+  {
+    "text": "set my alarm for 10 tonight as a reminder",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9994435906410217
+    }
+  },
+  {
+    "text": "Did I set the alarm for tomorrow morning",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.995780348777771
+    }
+  },
+  {
+    "text": "set my snooze alarm for 1 hour",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__snooze_alarm",
+      "confidence": 0.9432474374771118
+    }
+  },
+  {
+    "text": "reset all the alarms",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.9874604940414429
+    }
+  },
+  {
+    "text": "what is the alarm set to",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.991891622543335
+    }
+  },
+  {
+    "text": "Set an alarm to remind me to go to the vet tomorrow",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.8623037338256836
+    }
+  },
+  {
+    "text": "Alarm for 6 to change out laundry",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.6363335251808167
+    }
+  },
+  {
+    "text": "repeat all alarms tomorrow",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.5492309927940369
+    }
+  },
+  {
+    "text": "Remind me when its time to take medicine at 3 am - set alarm",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.5623985528945923
+    }
+  },
+  {
+    "text": "repeat the 60 second timer 15 times",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.5172412395477295
+    }
+  },
+  {
+    "text": "Alarm go off after one day",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7924221158027649
+    }
+  },
+  {
+    "text": "Add 1 and a half minutes to alarm",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.8350265026092529
+    }
+  },
+  {
+    "text": "set alarm to remind me to take out trash",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9801684617996216
+    }
+  },
+  {
+    "text": "move the alarm to one hour later",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.9907805323600769
+    }
+  },
+  {
+    "text": "Do not wake me up this weekend",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.4347158372402191
+    }
+  },
+  {
+    "text": "set 2 minutes between snoozes",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__snooze_alarm",
+      "confidence": 0.5637661814689636
+    }
+  },
+  {
+    "text": "reset alarm tomorrow",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.5112722516059875
+    }
+  },
+  {
+    "text": "Please add an alarm on Wednesdays for 2pm to check on my neighbor",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.6987089514732361
+    }
+  },
+  {
+    "text": "Turn on all my morning alarms.",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.612532377243042
+    }
+  },
+  {
+    "text": "turn on all the alarms",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.6202391982078552
+    }
+  },
+  {
+    "text": "Open alarms, please.",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.9638248085975647
+    }
+  },
+  {
+    "text": "reset all alarms to central time",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.8972651362419128
+    }
+  },
+  {
+    "text": "Turn on all of my alarms",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.9394744634628296
+    }
+  },
+  {
+    "text": "Repeat my alarm daily",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.7760170102119446
+    }
+  },
+  {
+    "text": "Add a new alarm to remind me to take the dog to the vet",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.999612033367157
+    }
+  },
+  {
+    "text": "Turn all my alarms on.",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7394574284553528
+    }
+  },
+  {
+    "text": "turn on all of my alarms",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.8886345624923706
+    }
+  },
+  {
+    "text": "add 30 minutes to the next alarm",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.8424358367919922
+    }
+  },
+  {
+    "text": "Do not forget to set the alarm?",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.6114935278892517
+    }
+  },
+  {
+    "text": "Push \"Game of Thrones\" alarm back to 10 pm.",
+    "intent": "alarm__set_alarm",
+    "intent_prediction": {
+      "name": "alarm__modify_alarm",
+      "confidence": 0.8779137134552002
+    }
+  },
+  {
+    "text": "Alarm, right now",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9042487740516663
+    }
+  },
+  {
+    "text": "My alarm",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.6947346925735474
+    }
+  },
+  {
+    "text": "My alarm please",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.8862749338150024
+    }
+  },
+  {
+    "text": "My alarm now",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9960957169532776
+    }
+  },
+  {
+    "text": "Get my alarm",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.48358017206192017
+    }
+  },
+  {
+    "text": "Get my alarm please",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.7942434549331665
+    }
+  },
+  {
+    "text": "My alarm now please",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9738575220108032
+    }
+  },
+  {
+    "text": "show alarm set for tomorrow",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.516541063785553
+    }
+  },
+  {
+    "text": "Show me the list of alarms and reminders",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.7910676598548889
+    }
+  },
+  {
+    "text": "Is an alarm set for Friday at noon",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9963527917861938
+    }
+  },
+  {
+    "text": "how much time until my alarm clock goes off",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.9821577072143555
+    }
+  },
+  {
+    "text": "how many hours before my alarm goes off",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.9561848640441895
+    }
+  },
+  {
+    "text": "How long is my snooze set for",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__snooze_alarm",
+      "confidence": 0.6072379350662231
+    }
+  },
+  {
+    "text": "is my alarm set for every 25 minutes",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.982521653175354
+    }
+  },
+  {
+    "text": "Bring up all my alarms",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.6717709302902222
+    }
+  },
+  {
+    "text": "do I have any time left on my alarm",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.5101674795150757
+    }
+  },
+  {
+    "text": "how long to next alarm",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.5266661643981934
+    }
+  },
+  {
+    "text": "How much time until the first alarm goes off",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.980430006980896
+    }
+  },
+  {
+    "text": "is the alarm set for saturday at 9 am or 9 pm",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.997549831867218
+    }
+  },
+  {
+    "text": "time left for alarm",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.8486076593399048
+    }
+  },
+  {
+    "text": "How much time until my next alarm goes off",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.9834007620811462
+    }
+  },
+  {
+    "text": "How much time is there left on the alarm",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.9919657707214355
+    }
+  },
+  {
+    "text": "Show current alarm reminder",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.6743960380554199
+    }
+  },
+  {
+    "text": "How much time left till I get out of work alarm at 7pm",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.9775210022926331
+    }
+  },
+  {
+    "text": "remind me when I have to wake up tomorrow",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9999967813491821
+    }
+  },
+  {
+    "text": "Did I set an alarm for 7 tomorrow?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.66152024269104
+    }
+  },
+  {
+    "text": "Did you set the alarm at 6 am?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.7213629484176636
+    }
+  },
+  {
+    "text": "is my 5 am alarm off?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.6260644197463989
+    }
+  },
+  {
+    "text": "Is 7 am the alarm set for tomorrow?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.857699453830719
+    }
+  },
+  {
+    "text": "Is my alarm set for 4:00 a.m.?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.6161866784095764
+    }
+  },
+  {
+    "text": "Any alarms set for after 12 pm?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9566056728363037
+    }
+  },
+  {
+    "text": "Do I have an alarm set for tomorrow at 8am",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9030007719993591
+    }
+  },
+  {
+    "text": "Is there an alarm for 8am set for in the morning?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9889879822731018
+    }
+  },
+  {
+    "text": "Do I have an alarm set for wake time 5 am Monday thru Friday?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.984474778175354
+    }
+  },
+  {
+    "text": "did I set an alarm for 9am",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9601073861122131
+    }
+  },
+  {
+    "text": "Is the alarm set for 45 or 50 minutes?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.8744589686393738
+    }
+  },
+  {
+    "text": "check my alarm for tomorrow morning",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9017016291618347
+    }
+  },
+  {
+    "text": "check time on alarm",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9878290891647339
+    }
+  },
+  {
+    "text": "How long until my alarm?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.5140398144721985
+    }
+  },
+  {
+    "text": "Is an alarm set for Tuesday at 8am?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.995478093624115
+    }
+  },
+  {
+    "text": "How much longer on my alarm?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__time_left_on_alarm",
+      "confidence": 0.9180453419685364
+    }
+  },
+  {
+    "text": "Do i have an alarm set for 8 am tomorrow?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9969670176506042
+    }
+  },
+  {
+    "text": "Are alarms set for 5 am?",
+    "intent": "alarm__show_alarms",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.5071433782577515
+    }
+  },
+  {
+    "text": "I don't want to forget to clean the bathroom",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__cancel_reminder",
+      "confidence": 0.5842717289924622
+    }
+  },
+  {
+    "text": "Set an alarm to remind me to drink water every 2 hours",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.8986697196960449
+    }
+  },
+  {
+    "text": "What is my reminder for tomorrow/",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.9755097031593323
+    }
+  },
+  {
+    "text": "Show me the reminder for the house tour",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.9700390696525574
+    }
+  },
+  {
+    "text": "remind me the bake sale is next Tuesday",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.5836942195892334
+    }
+  },
+  {
+    "text": "remind me to cancel my alarm.",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.46402084827423096
+    }
+  },
+  {
+    "text": "remind me to turn off the lights when I leave my house",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.3042282462120056
+    }
+  },
+  {
+    "text": "remind me to cancel my doctor appointment next Tuesday",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__cancel_reminder",
+      "confidence": 0.5241508483886719
+    }
+  },
+  {
+    "text": "please set the reminders for next month",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.7400391697883606
+    }
+  },
+  {
+    "text": "Remind me to cancel all reminders.",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__cancel_reminder",
+      "confidence": 0.6153424978256226
+    }
+  },
+  {
+    "text": "keep all reminders the same next year",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.6874787211418152
+    }
+  },
+  {
+    "text": "tell me tomorrow's reminders",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.948503315448761
+    }
+  },
+  {
+    "text": "I need a recurring reminder, August 6th, Birthday, contact, Adam.",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.46771693229675293
+    }
+  },
+  {
+    "text": "birthday reminders",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.9365536570549011
+    }
+  },
+  {
+    "text": "I'd like a reminder for my breakfast with dad.",
+    "intent": "reminder__set_reminder",
+    "intent_prediction": {
+      "name": "reminder__show_reminders",
+      "confidence": 0.9559733867645264
+    }
+  },
+  {
+    "text": "Reset alarm for 30 minutes from now",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9992978572845459
+    }
+  },
+  {
+    "text": "Can you reschedule my wake up alarms for 8:30 all of next week",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.6708767414093018
+    }
+  },
+  {
+    "text": "Repeat 5:30am alarm Monday through Friday only",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9753981828689575
+    }
+  },
+  {
+    "text": "Add ten minutes to my snooze alarm",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__snooze_alarm",
+      "confidence": 0.8361316919326782
+    }
+  },
+  {
+    "text": "add 15 minutes to morning alarm",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.5136515498161316
+    }
+  },
+  {
+    "text": "Remove the repeat on my alarm",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.9050763845443726
+    }
+  },
+  {
+    "text": "Add an hour to my alarm",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.5660300254821777
+    }
+  },
+  {
+    "text": "make the alarm go off at 6",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9838817119598389
+    }
+  },
+  {
+    "text": "Reset the alarm to go off in two hours",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.8696504235267639
+    }
+  },
+  {
+    "text": "repeat today's alarm every day this week",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9829283952713013
+    }
+  },
+  {
+    "text": "Reset 60 second alarm",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.7588026523590088
+    }
+  },
+  {
+    "text": "reset tomorrows 6 pm alarm to 7 pm",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.8472793102264404
+    }
+  },
+  {
+    "text": "Add another hour to the alarm",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.8751851916313171
+    }
+  },
+  {
+    "text": "SET THE ALARM FOR A HOUR AHEAD",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9999547004699707
+    }
+  },
+  {
+    "text": "Reset the alarm set for 60 minutes",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9998236298561096
+    }
+  },
+  {
+    "text": "add nap alarm",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.8035069704055786
+    }
+  },
+  {
+    "text": "reset 4:30 alarm to 5",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9938340187072754
+    }
+  },
+  {
+    "text": "add 15 minutes to alarm",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.6484243273735046
+    }
+  },
+  {
+    "text": "set my alarm for 20 minutes earlier please",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9999969005584717
+    }
+  },
+  {
+    "text": "Add 10 minutes to my morning wake up alarm",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9745989441871643
+    }
+  },
+  {
+    "text": "Put 10 more minutes on my alarm",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.7958766222000122
+    }
+  },
+  {
+    "text": "Set the alarm for half an hour later on Wednesdays",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.800825834274292
+    }
+  },
+  {
+    "text": "set alarm to go off 10 minutes early",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9996976852416992
+    }
+  },
+  {
+    "text": "Remove 3 minutes from my active alarms",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.9801129102706909
+    }
+  },
+  {
+    "text": "REPEAT ALARM EVERY 4 HOURS",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9969269633293152
+    }
+  },
+  {
+    "text": "repeat alarm every monday wednesday friday",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.6189951300621033
+    }
+  },
+  {
+    "text": "delete my alarm for tomorrow morning",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.9999126195907593
+    }
+  },
+  {
+    "text": "Repeat Alarm for tomorrow",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9390920400619507
+    }
+  },
+  {
+    "text": "Repeat alarm everyday at 10am",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9986284971237183
+    }
+  },
+  {
+    "text": "repeat alarm daily",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.5720979571342468
+    }
+  },
+  {
+    "text": "repeat alarm time everyday",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.5467118620872498
+    }
+  },
+  {
+    "text": "Add half an hour on the alarm that is set at 6 p.m.",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9477025270462036
+    }
+  },
+  {
+    "text": "repeat my 5:30 am alarm every day",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9925259351730347
+    }
+  },
+  {
+    "text": "Change the alarm I set for 7 AM to 6 AM",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.5115710496902466
+    }
+  },
+  {
+    "text": "Repeat my next alarm for every weekday.",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.8516810536384583
+    }
+  },
+  {
+    "text": "repeat this alarm every week day",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9934616088867188
+    }
+  },
+  {
+    "text": "repeat alarm 5 times",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.6637008786201477
+    }
+  },
+  {
+    "text": "Make an alarm go off every 5 minutes.",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9999790191650391
+    }
+  },
+  {
+    "text": "repeat this alarm at 5:45",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9898576736450195
+    }
+  },
+  {
+    "text": "Repeat alarm every Thursday",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9869367480278015
+    }
+  },
+  {
+    "text": "Name alarm weekend alarm.",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9879449605941772
+    }
+  },
+  {
+    "text": "repeat the alarm for 7 days",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.5199838876724243
+    }
+  },
+  {
+    "text": "Repeat alarm every two minutes",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9798428416252136
+    }
+  },
+  {
+    "text": "Repeat alarm every Tuesday",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.8228774070739746
+    }
+  },
+  {
+    "text": "Add 5 minutes to alarm setting",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9869093298912048
+    }
+  },
+  {
+    "text": "Repeat alarm tomorrow",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.6507210731506348
+    }
+  },
+  {
+    "text": "bump up all my alarms by 30 minutes",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9501311182975769
+    }
+  },
+  {
+    "text": "set daily alarm to weekday only",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9999945163726807
+    }
+  },
+  {
+    "text": "repeat 9am alarm monday through friday",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9975541234016418
+    }
+  },
+  {
+    "text": "repeat 5:30 alarm every monday wednesday friday",
+    "intent": "alarm__modify_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9126089215278625
+    }
+  },
+  {
+    "text": "What time is sun up",
+    "intent": "weather__checkSunrise",
+    "intent_prediction": {
+      "name": "weather__checkSunset",
+      "confidence": 0.5670489072799683
+    }
+  },
+  {
+    "text": "What time is dusk in my town",
+    "intent": "weather__checkSunset",
+    "intent_prediction": {
+      "name": "weather__find",
+      "confidence": 0.9734362363815308
+    }
+  },
+  {
+    "text": "Please rest the alarm for 4 PM",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9988756775856018
+    }
+  },
+  {
+    "text": "List out all my alarms please",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.9279367923736572
+    }
+  },
+  {
+    "text": "Turn off snooze for the alarm",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.772355854511261
+    }
+  },
+  {
+    "text": "Set a snooze alarm for ten minutes",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.7593231201171875
+    }
+  },
+  {
+    "text": "Turn snooze alarm off",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7566108703613281
+    }
+  },
+  {
+    "text": "Sleep alarm for 10 minutes",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.8984814286231995
+    }
+  },
+  {
+    "text": "Set my snooze alarm for every 5 minutes",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.6358738541603088
+    }
+  },
+  {
+    "text": "set the snooze for the monday alarm for 3 times every 5 minutes",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.7677449584007263
+    }
+  },
+  {
+    "text": "set the snooze on alarm for every 15 minutes",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.8537009358406067
+    }
+  },
+  {
+    "text": "Turn off the snooze alarm.",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.8022138476371765
+    }
+  },
+  {
+    "text": "set snooze alarm for every 5 minutes",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.8673561215400696
+    }
+  },
+  {
+    "text": "put the alarm on hold",
+    "intent": "alarm__snooze_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.7677453756332397
+    }
+  },
+  {
+    "text": "Cancel alarm at 2 and set alarm for 2:40 pm",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9028223156929016
+    }
+  },
+  {
+    "text": "Turn off the snooze timer",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__snooze_alarm",
+      "confidence": 0.4216481149196625
+    }
+  },
+  {
+    "text": "please set off alarm every 15 minutes",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9999840259552002
+    }
+  },
+  {
+    "text": "Sound alarm for 45 seconds",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9179868698120117
+    }
+  },
+  {
+    "text": "pause my alarm at 3pm",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__snooze_alarm",
+      "confidence": 0.7366546988487244
+    }
+  },
+  {
+    "text": "stop alarm for every 30 minutes",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9894168972969055
+    }
+  },
+  {
+    "text": "Set an alarm every 10 minutes for 2 hours",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "forget the alarm tomorrow",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.5351115465164185
+    }
+  },
+  {
+    "text": "Cancel my alarm for gas reminder today.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "reminder__cancel_reminder",
+      "confidence": 0.5631657838821411
+    }
+  },
+  {
+    "text": "turn off 7:15am alarm",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.5149002075195312
+    }
+  },
+  {
+    "text": "End alarm now.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.7729810476303101
+    }
+  },
+  {
+    "text": "Reset alarm for 10 a.m. tomorrow",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9363815784454346
+    }
+  },
+  {
+    "text": "Reset alarm for 1 hour from now",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9757173657417297
+    }
+  },
+  {
+    "text": "stop alarm in 10 minutes",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.682555079460144
+    }
+  },
+  {
+    "text": "Close alarm clock",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.4977363646030426
+    }
+  },
+  {
+    "text": "reset alarm to 4:30am for tomorrow",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9996360540390015
+    }
+  },
+  {
+    "text": "reset alarm for one hour from now",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.973430335521698
+    }
+  },
+  {
+    "text": "Reset my alarm for 6:30 am.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9988762736320496
+    }
+  },
+  {
+    "text": "Reset alarm for 3 pm",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9890594482421875
+    }
+  },
+  {
+    "text": "short down my alarm now",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.6786242723464966
+    }
+  },
+  {
+    "text": "remove all alarms and reminders",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "reminder__cancel_reminder",
+      "confidence": 0.6191508769989014
+    }
+  },
+  {
+    "text": "Rest the alarm in 5 minutes",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9958181977272034
+    }
+  },
+  {
+    "text": "Do not set the day alarm tomorrow",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9710142016410828
+    }
+  },
+  {
+    "text": "End my 5 am alarm",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.7502796053886414
+    }
+  },
+  {
+    "text": "Please dismiss alarm on Friday at 8 am",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.6906240582466125
+    }
+  },
+  {
+    "text": "Reset alarm for 30 minutes",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9928262233734131
+    }
+  },
+  {
+    "text": "Reset alarm for 8 am",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9892858862876892
+    }
+  },
+  {
+    "text": "reset alarm for 5 minutes",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9972119927406311
+    }
+  },
+  {
+    "text": "reset alarm for tomorrow",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.5883175730705261
+    }
+  },
+  {
+    "text": "End recurring work alarm on April 1, 2017.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.933116614818573
+    }
+  },
+  {
+    "text": "Pause this alarm until I say go",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__snooze_alarm",
+      "confidence": 0.7925935387611389
+    }
+  },
+  {
+    "text": "Turn off the alarm set for 4:30pm",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.6069267392158508
+    }
+  },
+  {
+    "text": "Reset the morning alarm to 7:00 am",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.9364681243896484
+    }
+  },
+  {
+    "text": "Reset the weekend alarm to 9:00 am",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "alarm__set_alarm",
+      "confidence": 0.5257132649421692
+    }
+  },
+  {
+    "text": "Delete alarm reminder.",
+    "intent": "alarm__cancel_alarm",
+    "intent_prediction": {
+      "name": "reminder__cancel_reminder",
+      "confidence": 0.5486093759536743
+    }
+  },
+  {
+    "text": "Reminder for next week",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9844599962234497
+    }
+  },
+  {
+    "text": "Remind me of who I need to call this week",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9995038509368896
+    }
+  },
+  {
+    "text": "remind me what i must do tomorrow",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9998656511306763
+    }
+  },
+  {
+    "text": "I have an canceled reminder for my doctor's appointment",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__cancel_reminder",
+      "confidence": 0.5242442488670349
+    }
+  },
+  {
+    "text": "remind me of my appointments today",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.8605966567993164
+    }
+  },
+  {
+    "text": "remind me when my alarm is set",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.924089252948761
+    }
+  },
+  {
+    "text": "Remind me of my meeting with Dale at 3 PM today",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9997814297676086
+    }
+  },
+  {
+    "text": "Show my reminder to attend a meeting tomorrow",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.8049707412719727
+    }
+  },
+  {
+    "text": "Reminders for tomorrow.",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9854227304458618
+    }
+  },
+  {
+    "text": "Remind me I have a dentist appointment at five",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "remind me about my 4pm doctor appointment",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9999994039535522
+    }
+  },
+  {
+    "text": "remind me all the appointments",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9994624257087708
+    }
+  },
+  {
+    "text": "Remind me of Mom's Birthday",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9986006617546082
+    }
+  },
+  {
+    "text": "What was you suppose to remind me to do today>",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.8772673010826111
+    }
+  },
+  {
+    "text": "Show me a reminder to take survey in 1 hour",
+    "intent": "reminder__show_reminders",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9108845591545105
+    }
+  },
+  {
+    "text": "cancel all alarms and reminders",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7897475361824036
+    }
+  },
+  {
+    "text": "Move reminder to trash",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9601390361785889
+    }
+  },
+  {
+    "text": "don't remind me to clean the bathroom",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9994499087333679
+    }
+  },
+  {
+    "text": "cancel all reminders and alarms for today",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.6457809209823608
+    }
+  },
+  {
+    "text": "Remind me to email Stephanie",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9962959885597229
+    }
+  },
+  {
+    "text": "stop reminder and 10 minutes",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.8852380514144897
+    }
+  },
+  {
+    "text": "Forget reminder for tomorrow.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "reminder__set_reminder",
+      "confidence": 0.9969275593757629
+    }
+  },
+  {
+    "text": "stop all reminders and alarms",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.601154625415802
+    }
+  },
+  {
+    "text": "Cancel all reminders and alarms for Friday.",
+    "intent": "reminder__cancel_reminder",
+    "intent_prediction": {
+      "name": "alarm__cancel_alarm",
+      "confidence": 0.7004631757736206
+    }
+  },
+  {
+    "text": "What time does next next alarm go off",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.582973301410675
+    }
+  },
+  {
+    "text": "when will my next alarm go off",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.6273428201675415
+    }
+  },
+  {
+    "text": "when is my next alarm set to go off",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.9530948400497437
+    }
+  },
+  {
+    "text": "when does my alarm go off",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8061878085136414
+    }
+  },
+  {
+    "text": "When will my alarm be going off",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.4375632405281067
+    }
+  },
+  {
+    "text": "when will my alarm go off next",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.7599439024925232
+    }
+  },
+  {
+    "text": "When will my next alarm start",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.8431333899497986
+    }
+  },
+  {
+    "text": "what time is the next alarm going off",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.6884768009185791
+    }
+  },
+  {
+    "text": "when will the alarm go off",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5180694460868835
+    }
+  },
+  {
+    "text": "When will my next alarm go off",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.6194277405738831
+    }
+  },
+  {
+    "text": "What time is my morning alarm",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.9869303703308105
+    }
+  },
+  {
+    "text": "Is my alarm about to go off",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.7487029433250427
+    }
+  },
+  {
+    "text": "How much for time do I have on my alarm",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5540494918823242
+    }
+  },
+  {
+    "text": "When will the alarm sound",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.5448265671730042
+    }
+  },
+  {
+    "text": "How much longer do I have to snooze",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__snooze_alarm",
+      "confidence": 0.6136214733123779
+    }
+  },
+  {
+    "text": "What is the remaining time on my alarm?",
+    "intent": "alarm__time_left_on_alarm",
+    "intent_prediction": {
+      "name": "alarm__show_alarms",
+      "confidence": 0.6508527398109436
+    }
+  },
+  {
+    "text": "find Wish You Were Here , a movie",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.9887056946754456
+    }
+  },
+  {
+    "text": "play Another Time",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "PlayMusic",
+      "confidence": 0.9955102205276489
+    }
+  },
+  {
+    "text": "When and where is DistroWatch playing",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.9999934434890747
+    }
+  },
+  {
+    "text": "Find Wish You Were Here .",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.6345435380935669
+    }
+  },
+  {
+    "text": "When is City of Angels playing?",
+    "intent": "SearchCreativeWork",
+    "intent_prediction": {
+      "name": "SearchScreeningEvent",
+      "confidence": 0.9513779878616333
+    }
+  },
+  {
+    "text": "find The Broken",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.8471480011940002
+    }
+  },
+  {
+    "text": "Find time for The Thirty Nine Steps",
+    "intent": "SearchScreeningEvent",
+    "intent_prediction": {
+      "name": "SearchCreativeWork",
+      "confidence": 0.9997478127479553
+    }
+  }
+]
