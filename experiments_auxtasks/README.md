@@ -1,30 +1,4 @@
 # SID with dialectal Norwegian auxiliary tasks
-
-## Baselines
-
-```
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sideng --seed 1234
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sideng --seed 5678
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sideng --seed 8446
-python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sidnor --seed 1234
-python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sidnor --seed 5678
-python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sidnor --seed 8446
-
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sideng --seed 1234
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sideng --seed 5678
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sideng --seed 8446
-python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sidnor --seed 1234
-python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sidnor --seed 5678
-python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sidnor --seed 8446
-
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sideng --seed 1234
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sideng --seed 5678
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sideng --seed 8446
-python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sidnor --seed 1234
-python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sidnor --seed 5678
-python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sidnor --seed 8446
-```
-
 ## Preparing auxiliary data sets
 
 Download the Nordic Dialect Corpus as described in the main README, then run:
@@ -40,6 +14,63 @@ cd ../data/UD_Norwegian-NynorskLIA_dialect
 cd ../experiments_auxtasks
 ```
 
+Split the NorSID development set to get data for dialect identification:
+```
+python3 dataprep/split_sid_dev.py
+```
+
+## Baselines
+
+```
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sideng --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sideng --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sideng --seed 8446
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sidnor --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sidnor --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_sidnor --seed 8446
+python3 ../machamp/train.py --dataset_configs configs/data_siddial.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_siddial --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_siddial.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_siddial --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_siddial.json --parameters_config configs/model_mdeberta.json --device 0 --name mdeberta_siddial --seed 8446
+
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sideng --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sideng --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sideng --seed 8446
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sidnor --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sidnor --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_sidnor --seed 8446
+python3 ../machamp/train.py --dataset_configs configs/data_siddial.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_siddial --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_siddial.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_siddial --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_siddial.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_siddial --seed 8446
+
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sideng --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sideng --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sideng --seed 8446
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sidnor --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sidnor --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sidnor --seed 8446
+python3 ../machamp/train.py --dataset_configs configs/data_siddial.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_siddial --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_siddial.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_siddial --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_siddial.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_siddial --seed 8446
+```
+
+## Auxiliary task experiments
+
+```
+# Dialect ID x SID: Joint multi-task learning
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_idxsid --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_idxsid --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_idxsid --seed 8446
+
+# Dialect ID -> SID: Intermediate-task training
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sid --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sid --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sid --seed 8446
+
+# POS x SID: Joint multi-task learning
+
+# POS -> SID: Intermediate-task training
+
+```
 
 ## other notes
 

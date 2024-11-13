@@ -3,6 +3,7 @@
 */logs/*/*/*.txt
 */logs/*/*/vocabularies/*
 !*/logs/*/*/metrics.json
+*ipynb*
 .python-version
 .DS_Store
 .idea
