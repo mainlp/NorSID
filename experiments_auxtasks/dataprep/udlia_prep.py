@@ -79,7 +79,7 @@ def get_entries(in_file, upos=True, ortho=False, verbose=True):
                 print(in_file)
                 print("(exiting)")
                 return
-        if cur_sent:
+        if cur_sent and cur_sent[-1][0] != "#":
             sentences.append(cur_sent)
             group2count[cur_group] = group2count[cur_group] + 1
     return sentences, group2count
