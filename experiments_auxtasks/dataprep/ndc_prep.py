@@ -32,6 +32,29 @@ def remove_short_vowel_consonant_cluster(token):
     return token
 
 
+def update_spelling(token):
+    # Make the transcription more similar to actual writing.
+
+    # Syllabic consonants, syllable boundaries
+    token = token.replace("'", "")
+
+    # Short vowels marked via consonant doubling in
+    # ways unlikely to be used in "normal" writing
+    token = token.replace("ssjt", "rst")
+    token = token.replace("ssjk", "rsk")
+    if len(token) > 3 and token not in ["ikkje", "issje"]:
+        # NB this catches some false positives
+        token = remove_short_vowel_consonant_cluster(token)
+
+    # Retroflex flap: could be either "l" or "rd",
+    # but we have many more "l" cases in the NDC data
+    token = token.replace("L", "l")
+
+    token = token.replace("_", " ")
+
+    return token
+
+
 skip_tokens = ['#', '##', '*',  # pauses, overlaps
                # interjections
                'ee', 'eh', 'ehe', 'em', 'heh', 'hm', 'm', 'm-m', 'mhm', 'mm'
@@ -54,24 +77,8 @@ for file in glob(
             for token in tokens_raw:
                 if not token or token in skip_tokens:
                     continue
-                # Make the transcription more similar to
-                # actual writing.
-                # syllabic consonants, syllable boundaries
-                token = token.replace("'", "")
-
-                # Short vowels marked via consonant doubling in
-                # ways unlikely to be used in "normal" writing
-                token = token.replace("ssjt", "rst")
-                token = token.replace("ssjk", "rsk")
-                if len(token) > 3 and token not in ["ikkje", "issje"]:
-                    # NB this catches some false positives
-                    token = remove_short_vowel_consonant_cluster(token)
-
-                # Retroflex flap: could either be "l" or "rd",
-                # but we have many more "l" cases
-                token = token.replace("L", "l")
-
-                token = token.replace("_", " ")
+                # Make the transcription more similar to actual writing.
+                token = update_spelling(token)
                 tokens_final.append(token)
             if len(tokens_final) < 2:
                 continue
