@@ -1,4 +1,5 @@
 # SID with dialectal Norwegian auxiliary tasks
+
 ## Preparing auxiliary data sets
 
 Download the Nordic Dialect Corpus as described in the main README, then run:
@@ -12,12 +13,20 @@ cd ../data/UD_Norwegian-NynorskLIA_dialect
 ./run.sh
 # This creates no_nynorsklia_dialect-ud-{train,dev,test}.conllu in the same folder
 cd ../experiments_auxtasks
+python3 dataprep/udlia_prep.py
 ```
+This creates the files `../data/UD_LIA_{train,dev}.conll`, which are used for auxiliary tasks (POS tagging, dependency parsing).
 
 Split the NorSID development set to get data for dialect identification:
 ```
 python3 dataprep/split_sid_dev.py
 ```
+
+Prepare the NorNE (NER) data:
+```
+python3 dataprep/norne_prep.py
+```
+This creates the files `../data/norne_{train,dev}.conll`, which contain NorNE-6 labels (GPE as LOC or ORG, no MISC) and a mix of Nynorsk and Bokmål sentences.
 
 ## Baselines
 
@@ -86,6 +95,15 @@ python3 ../machamp/train.py --dataset_configs configs/data_deprel.json configs/d
 python3 ../machamp/train.py --dataset_configs configs/data_deprel.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_deprel_sid --seed 5678
 python3 ../machamp/train.py --dataset_configs configs/data_deprel.json configs/data_sideng.json--parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_deprel_sid --seed 8446
 
+# NER x SID: Joint multi-task learning
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_ner.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_nerxsid --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_ner.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_nerxsid --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_ner.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_nerxsid --seed 8446
+
+# NER -> SID: Intermediate-task training
+python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_ner_sid --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_ner_sid --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_ner_sid --seed 8446
 ```
 
 ## other notes

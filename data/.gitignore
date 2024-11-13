@@ -1,6 +1,4 @@
-*
-!NoMusic
-!UD_*
-!xsid
-!NordicDialectCorpus
-!norne
+nb_projectedTrain_noise_*
+ndc_*
+norsid_dev*
+
