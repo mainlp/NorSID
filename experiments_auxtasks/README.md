@@ -62,9 +62,9 @@ python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/d
 python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_idxsid --seed 8446
 
 # Dialect ID -> SID: Intermediate-task training
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sid --seed 1234
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sid --seed 5678
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sid --seed 8446
+python3 ../machamp/train.py --dataset_configs configs/data_dialectid.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sid --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_dialectid.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sid --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_dialectid.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sid --seed 8446
 
 # POS x SID: Joint multi-task learning
 python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_pos.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_posxsid --seed 1234
@@ -72,9 +72,9 @@ python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/d
 python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_pos.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_posxsid --seed 8446
 
 # POS -> SID: Intermediate-task training
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_pos.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_pos_sid --seed 1234
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_pos.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_pos_sid --seed 5678
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_pos.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_pos_sid --seed 8446
+python3 ../machamp/train.py --dataset_configs configs/data_pos.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_pos_sid --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_pos.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_pos_sid --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_pos.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_pos_sid --seed 8446
 
 # DepRel x SID: Joint multi-task learning
 python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_deprel.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_deprelxsid --seed 1234
@@ -82,9 +82,9 @@ python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/d
 python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_deprel.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_deprelxsid --seed 8446
 
 # DepRel -> SID: Intermediate-task training
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_deprel.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_deprel_sid --seed 1234
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_deprel.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_deprel_sid --seed 5678
-python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_deprel.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_deprel_sid --seed 8446
+python3 ../machamp/train.py --dataset_configs configs/data_deprel.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_deprel_sid --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_deprel.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_deprel_sid --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_deprel.json configs/data_sideng.json--parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_deprel_sid --seed 8446
 
 ```
 
