@@ -1,0 +1,20 @@
+{
+    "epoch": "20/20",
+    "best_epoch": 15,
+    "max_gpu_mem": "2.4682",
+    "cur_ram": "1.0966",
+    "time_epoch": "0:00:38",
+    "time_total": "0:12:35",
+    "best_train_dialect_loss": 5.782508647890501,
+    "train_dialect_loss": 4.154568991633833,
+    "best_train_sum": 0.9393735264398787,
+    "train_sum": 0.9393735264398787,
+    "best_dev_dialect_loss": 20.661185004494406,
+    "dev_dialect_loss": 23.006339615041558,
+    "best_dev_sum": 0.803030303030303,
+    "dev_sum": 0.7848484848484848,
+    "best_train_dialect_accuracy": 0.9245537217918491,
+    "train_dialect_accuracy": 0.9393735264398787,
+    "best_dev_dialect_accuracy": 0.803030303030303,
+    "dev_dialect_accuracy": 0.7848484848484848
+}
