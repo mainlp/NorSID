@@ -20,6 +20,7 @@ This creates the files `../data/UD_LIA_{train,dev}.conll`, which are used for au
 Split the NorSID development set to get data for dialect identification:
 ```
 python3 dataprep/split_sid_dev.py
+python3 dataprep/conll_to_dialect_only.py
 ```
 
 Prepare the NorNE (NER) data:
@@ -64,6 +65,8 @@ python3 ../machamp/train.py --dataset_configs configs/data_siddial.json --parame
 
 ## Auxiliary task experiments
 
+
+Training on English SID data + auxiliary tasks
 ```
 # Dialect ID x SID: Joint multi-task learning
 python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_idxsid --seed 1234
@@ -104,6 +107,49 @@ python3 ../machamp/train.py --dataset_configs configs/data_sideng.json configs/d
 python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_ner_sid --seed 1234
 python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_ner_sid --seed 5678
 python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data_sideng.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_ner_sid --seed 8446
+```
+
+Training on machine-translated Norwegina SID data + auxiliary tasks
+```
+# Dialect ID x SID: Joint multi-task learning
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_idxsidnor --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_idxsidnor --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_dialectid.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_idxsidnor --seed 8446
+
+# Dialect ID -> SID: Intermediate-task training
+python3 ../machamp/train.py --dataset_configs configs/data_dialectid.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sidnor --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_dialectid.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sidnor --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_dialectid.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_id_sidnor --seed 8446
+
+# POS x SID: Joint multi-task learning
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_pos.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_posxsidnor --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_pos.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_posxsidnor --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_pos.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_posxsidnor --seed 8446
+
+# POS -> SID: Intermediate-task training
+python3 ../machamp/train.py --dataset_configs configs/data_pos.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_pos_sidnor --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_pos.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_pos_sidnor --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_pos.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_pos_sidnor --seed 8446
+
+# DepRel x SID: Joint multi-task learning
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_deprel.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_deprelxsidnor --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_deprel.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_deprelxsidnor --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_deprel.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_deprelxsidnor --seed 8446
+
+# DepRel -> SID: Intermediate-task training
+python3 ../machamp/train.py --dataset_configs configs/data_deprel.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_deprel_sidnor --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_deprel.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_deprel_sidnor --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_deprel.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_deprel_sidnor --seed 8446
+
+# NER x SID: Joint multi-task learning
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_ner.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_nerxsidnor --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_ner.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_nerxsidnor --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_sidnor.json configs/data_ner.json --parameters_config configs/model_scandibert.json --device 0 --name scandibert_nerxsidnor --seed 8446
+
+# NER -> SID: Intermediate-task training
+python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_ner_sidnor --seed 1234
+python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_ner_sidnor --seed 5678
+python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_ner_sidnor --seed 8446
 ```
 
 ## other notes
