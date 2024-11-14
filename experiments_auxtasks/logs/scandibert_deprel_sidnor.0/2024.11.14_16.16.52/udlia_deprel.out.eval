@@ -1,0 +1,10 @@
+{
+    "dependency": {
+        "optimization_metrics": "las",
+        "las": {
+            "las": 0.6843070474194394,
+            "sum": "las"
+        }
+    },
+    "sum": 0.6843070474194394
+}
