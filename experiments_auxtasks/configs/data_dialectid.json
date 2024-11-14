@@ -2,7 +2,7 @@
     "norsid_dialects_devdev": {
         "train_data_path": "../data/norsid_dialects_devtrain.tsv",
         "dev_data_path": "../data/norsid_dialects_devdev.tsv",
-        "sent_idxs": 0,
+        "sent_idxs": [0],
         "tasks": {
             "dialect": {
                 "task_type": "classification",
