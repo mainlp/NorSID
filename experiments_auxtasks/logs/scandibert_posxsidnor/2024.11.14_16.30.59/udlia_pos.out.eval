@@ -1,0 +1,10 @@
+{
+    "upos": {
+        "optimization_metrics": "accuracy",
+        "accuracy": {
+            "accuracy": 0.6995022268797485,
+            "sum": "accuracy"
+        }
+    },
+    "sum": 0.6995022268797485
+}

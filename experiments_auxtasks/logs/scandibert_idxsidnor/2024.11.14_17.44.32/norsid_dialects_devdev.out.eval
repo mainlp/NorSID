@@ -1,0 +1,10 @@
+{
+    "dialect": {
+        "optimization_metrics": "accuracy",
+        "accuracy": {
+            "accuracy": 0.7575757575757576,
+            "sum": "accuracy"
+        }
+    },
+    "sum": 0.7575757575757576
+}

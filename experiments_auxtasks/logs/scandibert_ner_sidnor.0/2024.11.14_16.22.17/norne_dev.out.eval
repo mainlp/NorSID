@@ -1,0 +1,12 @@
+{
+    "ner": {
+        "optimization_metrics": "span_f1",
+        "span_f1": {
+            "precision": 0.9310815421357899,
+            "recall": 0.9276002719238613,
+            "span_f1": 0.9293376468585051,
+            "sum": "span_f1"
+        }
+    },
+    "sum": 0.9293376468585051
+}
