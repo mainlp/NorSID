@@ -7,6 +7,9 @@ with open("../data/NoMusic/NorSID/norsid_test_nolabels.conll") as f_in:
             if not line:
                 f_out.write("\n")
             elif line[0] == "#":
-                f_out.write(line + " PLACEHOLDER\n")
+                if line.startswith("# text"):
+                    f_out.write(line + "\n")
+                else:
+                    f_out.write(line + " PLACEHOLDER\n")
             else:
                 f_out.write(line + "\tPLACEHOLDER\tPLACEHOLDER\n")
