@@ -152,6 +152,13 @@ python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data
 python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data_sidnor.json --parameters_config configs/model_scandibert.json --sequential --device 0 --name scandibert_ner_sidnor --seed 8446
 ```
 
+## Predictions
+
+For each model in `logs`, run:
+```
+python3 ../machamp/predict.py logs/<SET-UP_NAME>/<TIMESTAMP>/model.pt ../data/norsid_test_machamp.conll predictions/<SET-UP_NAME>_<RANDOM_SEED>.out --device 0
+```
+
 ## other notes
 
 Change to Machamp: line 93 of machamp/machamp/model/machamp.py: added kwarg to allow loading norbert

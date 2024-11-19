@@ -46,6 +46,13 @@ python3 ../machamp/train.py --dataset_configs configs/data_sidnor30b.json --para
 python3 ../machamp/train.py --dataset_configs configs/data_sidnor30c.json --parameters_config configs/model_norbertbase.json --device 0 --name norbert_sidnor30 --seed 8446
 ```
 
+## Predictions
+
+For each model in `logs`, run:
+```
+python3 ../machamp/predict.py logs/<SET-UP_NAME>/<TIMESTAMP>/model.pt ../data/norsid_test_machamp.conll predictions/<SET-UP_NAME>_<RANDOM_SEED>.out --device 0
+```
+
 --
 
 ```
