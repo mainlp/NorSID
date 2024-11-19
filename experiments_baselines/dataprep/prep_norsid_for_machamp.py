@@ -28,3 +28,16 @@ with open("../data/NoMusic/NorSID/norsid_test.conll") as f_in:
             if line.startswith("#"):
                 line = line.replace(" =", ":")
             f_out.write(line + "\n")
+
+# Dev set:
+# - replace = with :
+with open("../data/NoMusic/NorSID/norsid_dev.conll") as f_in:
+    with open("../data/norsid_dev_machamp.conll", "w") as f_out:
+        for line in f_in:
+            line = line.strip()
+            if not line:
+                f_out.write("\n")
+                continue
+            if line.startswith("#"):
+                line = line.replace(" =", ":")
+            f_out.write(line + "\n")

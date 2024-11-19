@@ -4,7 +4,7 @@
 
 Make the test files MaChAmp-compatible:
 ```
-python3 dataprep/prep_test_for_machamp.py
+python3 dataprep/prep_norsid_for_machamp.py
 ```
 
 Update MaChAmp so NorBERT can be loaded: add kwarg to line 93 of `../machamp/machamp/model/machamp.py`
