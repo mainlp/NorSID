@@ -1,0 +1,17 @@
+data/NoMusic/NorSID/norsid_dev.conll
+class:                    B       N       T       V       all
+slot recall:              0.8500  0.7851  0.8258  0.8340  0.8245
+slot precision:           0.8230  0.7769  0.8010  0.8240  0.8093
+slot f1:                  0.8363  0.7810  0.8132  0.8290  0.8168
+
+intent accuracy:          0.9700  0.9517  0.9422  0.9673  0.9579
+fully correct:            0.6600  0.5600  0.6156  0.6633  0.6312
+
+unlabeled slot recall:    0.9310  0.8479  0.8893  0.8985  0.8899
+unlabeled slot precision: 0.9015  0.8390  0.8626  0.8878  0.8735
+unlabeled slot f1:        0.9160  0.8434  0.8758  0.8931  0.8816
+
+loose slot recall:        0.9362  0.8921  0.9108  0.9196  0.9138
+loose slot precision:     0.9048  0.8740  0.8802  0.8960  0.8886
+loose slot f1:            0.9203  0.8830  0.8952  0.9076  0.9010
+
