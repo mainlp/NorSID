@@ -91,7 +91,7 @@ def visualize(best_model_path, initial_model_path, exp):
     }
 
     def mean_absolute_diff(weight1, weight2):
-        return torch.abs(weight1 - weight2).mean().item()
+        return torch.abs(weight2 - weight1).mean().item()
 
 
     if exp == "scandi":

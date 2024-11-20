@@ -1,0 +1,100 @@
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.04_16.56.37_0_1_w0_1
+2024-11-19 17:36:57,841 - INFO - machamp.utils.myutils - intent_accuracy : 0.9564
+2024-11-19 17:36:57,842 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7884
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.04_16.56.37_10_11_w0_1
+2024-11-19 17:37:21,435 - INFO - machamp.utils.myutils - intent_accuracy : 0.6948
+2024-11-19 17:37:21,435 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6307
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.04_16.56.37_1_2_w0_1
+2024-11-19 17:37:45,238 - INFO - machamp.utils.myutils - intent_accuracy : 0.9527
+2024-11-19 17:37:45,238 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7780
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.04_16.56.37_2_3_w0_1
+2024-11-19 17:38:10,634 - INFO - machamp.utils.myutils - intent_accuracy : 0.9485
+2024-11-19 17:38:10,634 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7732
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.04_16.56.37_3_4_w0_1
+2024-11-19 17:38:35,457 - INFO - machamp.utils.myutils - intent_accuracy : 0.9418
+2024-11-19 17:38:35,457 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7579
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.04_16.56.37_4_5_w0_1
+2024-11-19 17:38:58,587 - INFO - machamp.utils.myutils - intent_accuracy : 0.9285
+2024-11-19 17:38:58,587 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7445
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.04_16.56.37_5_6_w0_1
+2024-11-19 17:39:22,704 - INFO - machamp.utils.myutils - intent_accuracy : 0.9188
+2024-11-19 17:39:22,704 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7418
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.04_16.56.37_6_7_w0_1
+2024-11-19 17:39:46,758 - INFO - machamp.utils.myutils - intent_accuracy : 0.8979
+2024-11-19 17:39:46,758 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7286
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.04_16.56.37_7_8_w0_1
+2024-11-19 17:40:09,903 - INFO - machamp.utils.myutils - intent_accuracy : 0.8273
+2024-11-19 17:40:09,903 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6960
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.04_16.56.37_8_9_w0_1
+2024-11-19 17:40:33,428 - INFO - machamp.utils.myutils - intent_accuracy : 0.7355
+2024-11-19 17:40:33,428 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6492
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.04_16.56.37_9_10_w0_1
+2024-11-19 17:40:57,046 - INFO - machamp.utils.myutils - intent_accuracy : 0.4300
+2024-11-19 17:40:57,046 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6039
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.18.56_0_1_w0_1
+2024-11-19 17:41:20,391 - INFO - machamp.utils.myutils - intent_accuracy : 0.9703
+2024-11-19 17:41:20,391 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7936
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.18.56_10_11_w0_1
+2024-11-19 17:41:44,006 - INFO - machamp.utils.myutils - intent_accuracy : 0.7542
+2024-11-19 17:41:44,006 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6471
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.18.56_1_2_w0_1
+2024-11-19 17:42:07,019 - INFO - machamp.utils.myutils - intent_accuracy : 0.9667
+2024-11-19 17:42:07,020 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7902
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.18.56_2_3_w0_1
+2024-11-19 17:42:30,115 - INFO - machamp.utils.myutils - intent_accuracy : 0.9615
+2024-11-19 17:42:30,115 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7808
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.18.56_3_4_w0_1
+2024-11-19 17:42:53,783 - INFO - machamp.utils.myutils - intent_accuracy : 0.9515
+2024-11-19 17:42:53,783 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7610
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.18.56_4_5_w0_1
+2024-11-19 17:43:16,929 - INFO - machamp.utils.myutils - intent_accuracy : 0.9555
+2024-11-19 17:43:16,929 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7527
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.18.56_5_6_w0_1
+2024-11-19 17:43:40,061 - INFO - machamp.utils.myutils - intent_accuracy : 0.9488
+2024-11-19 17:43:40,061 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7429
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.18.56_6_7_w0_1
+2024-11-19 17:44:03,605 - INFO - machamp.utils.myutils - intent_accuracy : 0.9352
+2024-11-19 17:44:03,605 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7095
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.18.56_7_8_w0_1
+2024-11-19 17:44:27,121 - INFO - machamp.utils.myutils - intent_accuracy : 0.9194
+2024-11-19 17:44:27,121 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6858
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.18.56_8_9_w0_1
+2024-11-19 17:44:50,726 - INFO - machamp.utils.myutils - intent_accuracy : 0.8021
+2024-11-19 17:44:50,726 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6672
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.18.56_9_10_w0_1
+2024-11-19 17:45:14,915 - INFO - machamp.utils.myutils - intent_accuracy : 0.4045
+2024-11-19 17:45:14,915 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6246
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.20.36_0_1_w0_1
+2024-11-19 17:45:38,372 - INFO - machamp.utils.myutils - intent_accuracy : 0.9655
+2024-11-19 17:45:38,372 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7783
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.20.36_10_11_w0_1
+2024-11-19 17:46:01,530 - INFO - machamp.utils.myutils - intent_accuracy : 0.7397
+2024-11-19 17:46:01,530 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6642
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.20.36_1_2_w0_1
+2024-11-19 17:46:27,586 - INFO - machamp.utils.myutils - intent_accuracy : 0.9606
+2024-11-19 17:46:27,586 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7684
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.20.36_2_3_w0_1
+2024-11-19 17:46:50,696 - INFO - machamp.utils.myutils - intent_accuracy : 0.9564
+2024-11-19 17:46:50,696 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7579
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.20.36_3_4_w0_1
+2024-11-19 17:47:14,142 - INFO - machamp.utils.myutils - intent_accuracy : 0.9503
+2024-11-19 17:47:14,142 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7334
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.20.36_4_5_w0_1
+2024-11-19 17:47:38,198 - INFO - machamp.utils.myutils - intent_accuracy : 0.9361
+2024-11-19 17:47:38,199 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7273
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.20.36_5_6_w0_1
+2024-11-19 17:48:01,441 - INFO - machamp.utils.myutils - intent_accuracy : 0.9333
+2024-11-19 17:48:01,441 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7261
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.20.36_6_7_w0_1
+2024-11-19 17:48:25,107 - INFO - machamp.utils.myutils - intent_accuracy : 0.9091
+2024-11-19 17:48:25,108 - INFO - machamp.utils.myutils - slots_span_f1   : 0.7166
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.20.36_7_8_w0_1
+2024-11-19 17:48:49,342 - INFO - machamp.utils.myutils - intent_accuracy : 0.8800
+2024-11-19 17:48:49,342 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6929
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.20.36_8_9_w0_1
+2024-11-19 17:49:14,195 - INFO - machamp.utils.myutils - intent_accuracy : 0.7573
+2024-11-19 17:49:14,195 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6649
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_2024.11.05_18.20.36_9_10_w0_1
+2024-11-19 17:49:36,973 - INFO - machamp.utils.myutils - intent_accuracy : 0.4191
+2024-11-19 17:49:36,974 - INFO - machamp.utils.myutils - slots_span_f1   : 0.6147
+predicting with model /nfs/gdata/fkoerner/reverted_models/reverted_model_7_01_w1_0

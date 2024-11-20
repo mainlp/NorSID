@@ -1,0 +1,45 @@
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.19.03_0_1_w0_1
+2024-11-20 11:30:33,740 - INFO - machamp.utils.myutils - intent_accuracy : 0.9794
+2024-11-20 11:30:33,741 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8455
+2024-11-20 11:30:33,741 - INFO - machamp.utils.myutils - sum             : 1.8249
+2024-11-20 11:30:33,741 - INFO - machamp.utils.myutils - 
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.20.48_0_1_w0_1
+2024-11-20 11:31:05,005 - INFO - machamp.utils.myutils - intent_accuracy : 0.9836
+2024-11-20 11:31:05,005 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8425
+2024-11-20 11:31:05,005 - INFO - machamp.utils.myutils - sum             : 1.8261
+2024-11-20 11:31:05,005 - INFO - machamp.utils.myutils - 
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.21.06_0_1_w0_1
+2024-11-20 11:31:35,439 - INFO - machamp.utils.myutils - intent_accuracy : 0.9812
+2024-11-20 11:31:35,439 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8446
+2024-11-20 11:31:35,439 - INFO - machamp.utils.myutils - sum             : 1.8258
+2024-11-20 11:31:35,439 - INFO - machamp.utils.myutils - 
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.19.03_0_1_w0_1
+2024-11-20 11:32:06,392 - INFO - machamp.utils.myutils - intent_accuracy : 0.9891
+2024-11-20 11:32:06,392 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8541
+2024-11-20 11:32:06,392 - INFO - machamp.utils.myutils - sum             : 1.8432
+2024-11-20 11:32:06,392 - INFO - machamp.utils.myutils - 
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.20.48_0_1_w0_1
+2024-11-20 11:32:37,207 - INFO - machamp.utils.myutils - intent_accuracy : 0.9888
+2024-11-20 11:32:37,207 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8485
+2024-11-20 11:32:37,207 - INFO - machamp.utils.myutils - sum             : 1.8373
+2024-11-20 11:32:37,207 - INFO - machamp.utils.myutils - 
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.21.06_0_1_w0_1
+2024-11-20 11:33:08,400 - INFO - machamp.utils.myutils - intent_accuracy : 0.9855
+2024-11-20 11:33:08,400 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8526
+2024-11-20 11:33:08,400 - INFO - machamp.utils.myutils - sum             : 1.8381
+2024-11-20 11:33:08,400 - INFO - machamp.utils.myutils - 
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.19.03_0_1_w0_1
+2024-11-20 11:33:38,744 - INFO - machamp.utils.myutils - intent_accuracy : 0.9852
+2024-11-20 11:33:38,744 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8352
+2024-11-20 11:33:38,744 - INFO - machamp.utils.myutils - sum             : 1.8203
+2024-11-20 11:33:38,744 - INFO - machamp.utils.myutils - 
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.20.48_0_1_w0_1
+2024-11-20 11:34:09,028 - INFO - machamp.utils.myutils - intent_accuracy : 0.9864
+2024-11-20 11:34:09,028 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8342
+2024-11-20 11:34:09,028 - INFO - machamp.utils.myutils - sum             : 1.8206
+2024-11-20 11:34:09,028 - INFO - machamp.utils.myutils - 
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.21.06_0_1_w0_1
+2024-11-20 11:34:39,615 - INFO - machamp.utils.myutils - intent_accuracy : 0.9764
+2024-11-20 11:34:39,615 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8380
+2024-11-20 11:34:39,615 - INFO - machamp.utils.myutils - sum             : 1.8144
+2024-11-20 11:34:39,616 - INFO - machamp.utils.myutils - 

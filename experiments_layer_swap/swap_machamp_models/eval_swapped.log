@@ -1,0 +1,341 @@
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.19.03_0_1_w0_1
+2024-11-20 11:30:09,171 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.19.03_0_1_w0_1 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.19.03_0_1_w0_1.preds
+
+2024-11-20 11:30:14,871 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+2024-11-20 11:30:16,803 - INFO - __main__ - predicting on ../data/norsid_dev_machamp.conll, saving on /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.19.03_0_1_w0_1.preds
+2024-11-20 11:30:17,791 - INFO - machamp.data.machamp_dataset - Reading ../data/norsid_dev_machamp.conll...
+2024-11-20 11:30:19,283 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:30:19,669 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:30:19,791 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:30:19,804 - INFO - machamp.readers.read_sequence - Stats SID_crossling (../data/norsid_dev_machamp.conll):
+2024-11-20 11:30:19,804 - INFO - machamp.readers.read_sequence - Lines:      3,300
+2024-11-20 11:30:19,804 - INFO - machamp.readers.read_sequence - Words:      26,114
+2024-11-20 11:30:19,804 - INFO - machamp.readers.read_sequence - Subwords:   39,957
+2024-11-20 11:30:19,804 - INFO - machamp.readers.read_sequence - Unks:       1
+2024-11-20 11:30:19,804 - INFO - machamp.readers.read_sequence - Pre-splits: 0
+2024-11-20 11:30:19,805 - INFO - machamp.data.machamp_dataset - Done reading ../data/norsid_dev_machamp.conll (2.0s)
+
+/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/utils/data/sampler.py:76: UserWarning: `data_source` argument is not used and will be removed in 2.2.0.You may still have custom implementation that utilizes it.
+  warnings.warn(
+2024-11-20 11:30:31,035 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:30:32,737 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:30:33,636 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:30:33,740 - INFO - machamp.utils.myutils - intent_accuracy : 0.9794
+2024-11-20 11:30:33,741 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8455
+2024-11-20 11:30:33,741 - INFO - machamp.utils.myutils - sum             : 1.8249
+2024-11-20 11:30:33,741 - INFO - machamp.utils.myutils - 
+
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.20.48_0_1_w0_1
+2024-11-20 11:30:40,701 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.20.48_0_1_w0_1 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.20.48_0_1_w0_1.preds
+
+2024-11-20 11:30:46,277 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+2024-11-20 11:30:47,954 - INFO - __main__ - predicting on ../data/norsid_dev_machamp.conll, saving on /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.20.48_0_1_w0_1.preds
+2024-11-20 11:30:48,917 - INFO - machamp.data.machamp_dataset - Reading ../data/norsid_dev_machamp.conll...
+2024-11-20 11:30:50,430 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:30:50,799 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:30:50,922 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:30:50,936 - INFO - machamp.readers.read_sequence - Stats SID_crossling (../data/norsid_dev_machamp.conll):
+2024-11-20 11:30:50,936 - INFO - machamp.readers.read_sequence - Lines:      3,300
+2024-11-20 11:30:50,936 - INFO - machamp.readers.read_sequence - Words:      26,114
+2024-11-20 11:30:50,936 - INFO - machamp.readers.read_sequence - Subwords:   39,957
+2024-11-20 11:30:50,936 - INFO - machamp.readers.read_sequence - Unks:       1
+2024-11-20 11:30:50,936 - INFO - machamp.readers.read_sequence - Pre-splits: 0
+2024-11-20 11:30:50,937 - INFO - machamp.data.machamp_dataset - Done reading ../data/norsid_dev_machamp.conll (2.0s)
+
+/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/utils/data/sampler.py:76: UserWarning: `data_source` argument is not used and will be removed in 2.2.0.You may still have custom implementation that utilizes it.
+  warnings.warn(
+2024-11-20 11:31:02,267 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:31:03,989 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:31:04,900 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:31:05,005 - INFO - machamp.utils.myutils - intent_accuracy : 0.9836
+2024-11-20 11:31:05,005 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8425
+2024-11-20 11:31:05,005 - INFO - machamp.utils.myutils - sum             : 1.8261
+2024-11-20 11:31:05,005 - INFO - machamp.utils.myutils - 
+
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.21.06_0_1_w0_1
+2024-11-20 11:31:11,173 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.21.06_0_1_w0_1 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.21.06_0_1_w0_1.preds
+
+2024-11-20 11:31:16,825 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+2024-11-20 11:31:18,572 - INFO - __main__ - predicting on ../data/norsid_dev_machamp.conll, saving on /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.04_16.56.37_2024.11.12_18.21.06_0_1_w0_1.preds
+2024-11-20 11:31:19,561 - INFO - machamp.data.machamp_dataset - Reading ../data/norsid_dev_machamp.conll...
+2024-11-20 11:31:21,045 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:31:21,412 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:31:21,534 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:31:21,547 - INFO - machamp.readers.read_sequence - Stats SID_crossling (../data/norsid_dev_machamp.conll):
+2024-11-20 11:31:21,547 - INFO - machamp.readers.read_sequence - Lines:      3,300
+2024-11-20 11:31:21,547 - INFO - machamp.readers.read_sequence - Words:      26,114
+2024-11-20 11:31:21,547 - INFO - machamp.readers.read_sequence - Subwords:   39,957
+2024-11-20 11:31:21,547 - INFO - machamp.readers.read_sequence - Unks:       1
+2024-11-20 11:31:21,547 - INFO - machamp.readers.read_sequence - Pre-splits: 0
+2024-11-20 11:31:21,548 - INFO - machamp.data.machamp_dataset - Done reading ../data/norsid_dev_machamp.conll (1.0s)
+
+/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/utils/data/sampler.py:76: UserWarning: `data_source` argument is not used and will be removed in 2.2.0.You may still have custom implementation that utilizes it.
+  warnings.warn(
+2024-11-20 11:31:32,750 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:31:34,439 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:31:35,334 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:31:35,439 - INFO - machamp.utils.myutils - intent_accuracy : 0.9812
+2024-11-20 11:31:35,439 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8446
+2024-11-20 11:31:35,439 - INFO - machamp.utils.myutils - sum             : 1.8258
+2024-11-20 11:31:35,439 - INFO - machamp.utils.myutils - 
+
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.19.03_0_1_w0_1
+2024-11-20 11:31:42,331 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.19.03_0_1_w0_1 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.19.03_0_1_w0_1.preds
+
+2024-11-20 11:31:48,008 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+2024-11-20 11:31:49,556 - INFO - __main__ - predicting on ../data/norsid_dev_machamp.conll, saving on /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.19.03_0_1_w0_1.preds
+2024-11-20 11:31:50,501 - INFO - machamp.data.machamp_dataset - Reading ../data/norsid_dev_machamp.conll...
+2024-11-20 11:31:52,002 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:31:52,365 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:31:52,488 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:31:52,501 - INFO - machamp.readers.read_sequence - Stats SID_crossling (../data/norsid_dev_machamp.conll):
+2024-11-20 11:31:52,501 - INFO - machamp.readers.read_sequence - Lines:      3,300
+2024-11-20 11:31:52,501 - INFO - machamp.readers.read_sequence - Words:      26,114
+2024-11-20 11:31:52,501 - INFO - machamp.readers.read_sequence - Subwords:   39,957
+2024-11-20 11:31:52,501 - INFO - machamp.readers.read_sequence - Unks:       1
+2024-11-20 11:31:52,501 - INFO - machamp.readers.read_sequence - Pre-splits: 0
+2024-11-20 11:31:52,502 - INFO - machamp.data.machamp_dataset - Done reading ../data/norsid_dev_machamp.conll (2.0s)
+
+/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/utils/data/sampler.py:76: UserWarning: `data_source` argument is not used and will be removed in 2.2.0.You may still have custom implementation that utilizes it.
+  warnings.warn(
+2024-11-20 11:32:03,697 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:32:05,386 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:32:06,292 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:32:06,392 - INFO - machamp.utils.myutils - intent_accuracy : 0.9891
+2024-11-20 11:32:06,392 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8541
+2024-11-20 11:32:06,392 - INFO - machamp.utils.myutils - sum             : 1.8432
+2024-11-20 11:32:06,392 - INFO - machamp.utils.myutils - 
+
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.20.48_0_1_w0_1
+2024-11-20 11:32:12,724 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.20.48_0_1_w0_1 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.20.48_0_1_w0_1.preds
+
+2024-11-20 11:32:18,341 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+2024-11-20 11:32:20,177 - INFO - __main__ - predicting on ../data/norsid_dev_machamp.conll, saving on /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.20.48_0_1_w0_1.preds
+2024-11-20 11:32:21,149 - INFO - machamp.data.machamp_dataset - Reading ../data/norsid_dev_machamp.conll...
+2024-11-20 11:32:22,641 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:32:23,005 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:32:23,128 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:32:23,141 - INFO - machamp.readers.read_sequence - Stats SID_crossling (../data/norsid_dev_machamp.conll):
+2024-11-20 11:32:23,141 - INFO - machamp.readers.read_sequence - Lines:      3,300
+2024-11-20 11:32:23,141 - INFO - machamp.readers.read_sequence - Words:      26,114
+2024-11-20 11:32:23,141 - INFO - machamp.readers.read_sequence - Subwords:   39,957
+2024-11-20 11:32:23,141 - INFO - machamp.readers.read_sequence - Unks:       1
+2024-11-20 11:32:23,141 - INFO - machamp.readers.read_sequence - Pre-splits: 0
+2024-11-20 11:32:23,142 - INFO - machamp.data.machamp_dataset - Done reading ../data/norsid_dev_machamp.conll (1.0s)
+
+/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/utils/data/sampler.py:76: UserWarning: `data_source` argument is not used and will be removed in 2.2.0.You may still have custom implementation that utilizes it.
+  warnings.warn(
+2024-11-20 11:32:34,464 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:32:36,186 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:32:37,101 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:32:37,207 - INFO - machamp.utils.myutils - intent_accuracy : 0.9888
+2024-11-20 11:32:37,207 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8485
+2024-11-20 11:32:37,207 - INFO - machamp.utils.myutils - sum             : 1.8373
+2024-11-20 11:32:37,207 - INFO - machamp.utils.myutils - 
+
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.21.06_0_1_w0_1
+2024-11-20 11:32:44,172 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.21.06_0_1_w0_1 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.21.06_0_1_w0_1.preds
+
+2024-11-20 11:32:49,929 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+2024-11-20 11:32:51,614 - INFO - __main__ - predicting on ../data/norsid_dev_machamp.conll, saving on /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.18.56_2024.11.12_18.21.06_0_1_w0_1.preds
+2024-11-20 11:32:52,582 - INFO - machamp.data.machamp_dataset - Reading ../data/norsid_dev_machamp.conll...
+2024-11-20 11:32:54,077 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:32:54,440 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:32:54,566 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:32:54,579 - INFO - machamp.readers.read_sequence - Stats SID_crossling (../data/norsid_dev_machamp.conll):
+2024-11-20 11:32:54,579 - INFO - machamp.readers.read_sequence - Lines:      3,300
+2024-11-20 11:32:54,579 - INFO - machamp.readers.read_sequence - Words:      26,114
+2024-11-20 11:32:54,579 - INFO - machamp.readers.read_sequence - Subwords:   39,957
+2024-11-20 11:32:54,579 - INFO - machamp.readers.read_sequence - Unks:       1
+2024-11-20 11:32:54,579 - INFO - machamp.readers.read_sequence - Pre-splits: 0
+2024-11-20 11:32:54,580 - INFO - machamp.data.machamp_dataset - Done reading ../data/norsid_dev_machamp.conll (1.0s)
+
+/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/utils/data/sampler.py:76: UserWarning: `data_source` argument is not used and will be removed in 2.2.0.You may still have custom implementation that utilizes it.
+  warnings.warn(
+2024-11-20 11:33:05,717 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:33:07,398 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:33:08,297 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:33:08,400 - INFO - machamp.utils.myutils - intent_accuracy : 0.9855
+2024-11-20 11:33:08,400 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8526
+2024-11-20 11:33:08,400 - INFO - machamp.utils.myutils - sum             : 1.8381
+2024-11-20 11:33:08,400 - INFO - machamp.utils.myutils - 
+
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.19.03_0_1_w0_1
+2024-11-20 11:33:14,658 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.19.03_0_1_w0_1 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.19.03_0_1_w0_1.preds
+
+2024-11-20 11:33:19,892 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+2024-11-20 11:33:21,627 - INFO - __main__ - predicting on ../data/norsid_dev_machamp.conll, saving on /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.19.03_0_1_w0_1.preds
+2024-11-20 11:33:22,599 - INFO - machamp.data.machamp_dataset - Reading ../data/norsid_dev_machamp.conll...
+2024-11-20 11:33:24,076 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:33:24,452 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:33:24,576 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:33:24,589 - INFO - machamp.readers.read_sequence - Stats SID_crossling (../data/norsid_dev_machamp.conll):
+2024-11-20 11:33:24,589 - INFO - machamp.readers.read_sequence - Lines:      3,300
+2024-11-20 11:33:24,589 - INFO - machamp.readers.read_sequence - Words:      26,114
+2024-11-20 11:33:24,589 - INFO - machamp.readers.read_sequence - Subwords:   39,957
+2024-11-20 11:33:24,589 - INFO - machamp.readers.read_sequence - Unks:       1
+2024-11-20 11:33:24,589 - INFO - machamp.readers.read_sequence - Pre-splits: 0
+2024-11-20 11:33:24,591 - INFO - machamp.data.machamp_dataset - Done reading ../data/norsid_dev_machamp.conll (1.0s)
+
+/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/utils/data/sampler.py:76: UserWarning: `data_source` argument is not used and will be removed in 2.2.0.You may still have custom implementation that utilizes it.
+  warnings.warn(
+2024-11-20 11:33:36,010 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:33:37,730 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:33:38,643 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:33:38,744 - INFO - machamp.utils.myutils - intent_accuracy : 0.9852
+2024-11-20 11:33:38,744 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8352
+2024-11-20 11:33:38,744 - INFO - machamp.utils.myutils - sum             : 1.8203
+2024-11-20 11:33:38,744 - INFO - machamp.utils.myutils - 
+
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.20.48_0_1_w0_1
+2024-11-20 11:33:45,039 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.20.48_0_1_w0_1 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.20.48_0_1_w0_1.preds
+
+2024-11-20 11:33:50,676 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+2024-11-20 11:33:52,268 - INFO - __main__ - predicting on ../data/norsid_dev_machamp.conll, saving on /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.20.48_0_1_w0_1.preds
+2024-11-20 11:33:53,194 - INFO - machamp.data.machamp_dataset - Reading ../data/norsid_dev_machamp.conll...
+2024-11-20 11:33:54,664 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:33:55,020 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:33:55,140 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:33:55,153 - INFO - machamp.readers.read_sequence - Stats SID_crossling (../data/norsid_dev_machamp.conll):
+2024-11-20 11:33:55,153 - INFO - machamp.readers.read_sequence - Lines:      3,300
+2024-11-20 11:33:55,153 - INFO - machamp.readers.read_sequence - Words:      26,114
+2024-11-20 11:33:55,153 - INFO - machamp.readers.read_sequence - Subwords:   39,957
+2024-11-20 11:33:55,153 - INFO - machamp.readers.read_sequence - Unks:       1
+2024-11-20 11:33:55,153 - INFO - machamp.readers.read_sequence - Pre-splits: 0
+2024-11-20 11:33:55,155 - INFO - machamp.data.machamp_dataset - Done reading ../data/norsid_dev_machamp.conll (1.0s)
+
+/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/utils/data/sampler.py:76: UserWarning: `data_source` argument is not used and will be removed in 2.2.0.You may still have custom implementation that utilizes it.
+  warnings.warn(
+2024-11-20 11:34:06,346 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:34:08,022 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:34:08,924 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:34:09,028 - INFO - machamp.utils.myutils - intent_accuracy : 0.9864
+2024-11-20 11:34:09,028 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8342
+2024-11-20 11:34:09,028 - INFO - machamp.utils.myutils - sum             : 1.8206
+2024-11-20 11:34:09,028 - INFO - machamp.utils.myutils - 
+
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.21.06_0_1_w0_1
+2024-11-20 11:34:15,321 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.21.06_0_1_w0_1 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.21.06_0_1_w0_1.preds
+
+2024-11-20 11:34:20,974 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+2024-11-20 11:34:22,679 - INFO - __main__ - predicting on ../data/norsid_dev_machamp.conll, saving on /nfs/gdata/fkoerner/swapped_models/swapped_2024.11.05_18.20.36_2024.11.12_18.21.06_0_1_w0_1.preds
+2024-11-20 11:34:23,660 - INFO - machamp.data.machamp_dataset - Reading ../data/norsid_dev_machamp.conll...
+2024-11-20 11:34:25,152 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:34:25,517 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:34:25,640 - WARNING - machamp.data.machamp_vocabulary - I-condition_description can not be found in namespace slots. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2024-11-20 11:34:25,653 - INFO - machamp.readers.read_sequence - Stats SID_crossling (../data/norsid_dev_machamp.conll):
+2024-11-20 11:34:25,653 - INFO - machamp.readers.read_sequence - Lines:      3,300
+2024-11-20 11:34:25,653 - INFO - machamp.readers.read_sequence - Words:      26,114
+2024-11-20 11:34:25,653 - INFO - machamp.readers.read_sequence - Subwords:   39,957
+2024-11-20 11:34:25,653 - INFO - machamp.readers.read_sequence - Unks:       1
+2024-11-20 11:34:25,653 - INFO - machamp.readers.read_sequence - Pre-splits: 0
+2024-11-20 11:34:25,655 - INFO - machamp.data.machamp_dataset - Done reading ../data/norsid_dev_machamp.conll (1.0s)
+
+/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/utils/data/sampler.py:76: UserWarning: `data_source` argument is not used and will be removed in 2.2.0.You may still have custom implementation that utilizes it.
+  warnings.warn(
+2024-11-20 11:34:36,909 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:34:38,601 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:34:39,511 - ERROR - machamp.metrics.span_f1 - Warning, one of your labels is not following the BIO scheme: @@unkORpad@@ the span-f1 will not be calculated correctly
+2024-11-20 11:34:39,615 - INFO - machamp.utils.myutils - intent_accuracy : 0.9764
+2024-11-20 11:34:39,615 - INFO - machamp.utils.myutils - slots_span_f1   : 0.8380
+2024-11-20 11:34:39,615 - INFO - machamp.utils.myutils - sum             : 1.8144
+2024-11-20 11:34:39,616 - INFO - machamp.utils.myutils - 
+
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_model_4_model.pt_01_w1_0
+2024-11-20 11:34:46,538 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_model_4_model.pt_01_w1_0 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_model_4_model.pt_01_w1_0.preds
+
+2024-11-20 11:34:52,141 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+Traceback (most recent call last):
+  File "/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py", line 45, in <module>
+    model = torch.load(args.torch_model, map_location=device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 1360, in load
+    return _load(
+           ^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 1848, in _load
+    result = unpickler.load()
+             ^^^^^^^^^^^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 1837, in find_class
+    return super().find_class(mod_name, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'model'
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_model_7_13079_01_w1_0
+2024-11-20 11:34:58,307 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_model_7_13079_01_w1_0 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_model_7_13079_01_w1_0.preds
+
+2024-11-20 11:35:03,970 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+Traceback (most recent call last):
+  File "/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py", line 45, in <module>
+    model = torch.load(args.torch_model, map_location=device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 1360, in load
+    return _load(
+           ^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 1848, in _load
+    result = unpickler.load()
+             ^^^^^^^^^^^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 1837, in find_class
+    return super().find_class(mod_name, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'model'
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_model_7_15048_01_w1_0
+2024-11-20 11:35:09,781 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_model_7_15048_01_w1_0 ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_model_7_15048_01_w1_0.preds
+
+2024-11-20 11:35:15,039 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+Traceback (most recent call last):
+  File "/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py", line 45, in <module>
+    model = torch.load(args.torch_model, map_location=device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 1360, in load
+    return _load(
+           ^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 1848, in _load
+    result = unpickler.load()
+             ^^^^^^^^^^^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 1837, in find_class
+    return super().find_class(mod_name, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'model'
+predicting with model /nfs/gdata/fkoerner/swapped_models/swapped_model_model.pt_01_w1_0_model_dir
+2024-11-20 11:35:20,824 - INFO - __main__ - cmd: ../machamp/predict.py /nfs/gdata/fkoerner/swapped_models/swapped_model_model.pt_01_w1_0_model_dir ../data/norsid_dev_machamp.conll /nfs/gdata/fkoerner/swapped_models/swapped_model_model.pt_01_w1_0_model_dir.preds
+
+2024-11-20 11:35:25,994 - INFO - __main__ - loading model...
+/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(args.torch_model, map_location=device)
+Traceback (most recent call last):
+  File "/mounts/Users/cisintern/fkoerner/NorSID/experiments_layer_swap/../machamp/predict.py", line 45, in <module>
+    model = torch.load(args.torch_model, map_location=device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mounts/Users/cisintern/fkoerner/.conda/envs/jbert-env/lib/python3.11/site-packages/torch/serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/nfs/gdata/fkoerner/swapped_models/swapped_model_model.pt_01_w1_0_model_dir'

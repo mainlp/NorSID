@@ -36,21 +36,22 @@ def swap_layers(layers_to_swap, weighting, base, swap_in, local=False, revert=Fa
 
     model_to_swap_in_encoder = model_to_swap_in.mlm if hasattr(model_to_swap_in, 'mlm') else model_to_swap_in.deberta
     base_model_encoder = base_model.mlm if hasattr(base_model, 'mlm') else base_model.deberta
-    model_to_swap_in_encoder.resize_token_embeddings(250102)
-
+    #model_to_swap_in_encoder.resize_token_embeddings(250102)
+    
     for index, ((name, swap_in_param), (name, base_model_param)) in enumerate(zip(model_to_swap_in_encoder.named_parameters(),
                                                                               base_model_encoder.named_parameters())):
         if "layer." in name:
             layer_num = int(name.split('.')[2])
         else:
             layer_num = -1
-        if layer_num in layers_to_swap:# or "embedding" in name:#(revert and "embedding" in name):
+        if layer_num in layers_to_swap or name.startswith("embeddings"):
             # use the language expert layers
             state_dict[name] = swap_in_param
             logging.info(f"Swapping in {name} from {swap_in}")
-        elif layer_num > 0 or revert:# or "LayerNorm" in name:# (revert and "LayerNorm" in name):
+        elif layer_num > 0 or revert or name.startswith("encoder.LayerNorm") or name.startswith("encoder.rel_embeddings"):
             # keep the original layers
             state_dict[name] = base_model_param
+            logging.info(f"Keeping {name} layer from base model")
         else:
             # non-FFN or attention layer
             # merge the parameters
