@@ -13,6 +13,8 @@ def get_model_id(model_name):
     model_id = model_name.split('/')[-1]
     if model_id == "model.pt":
         model_id = model_name.split('/')[-2]
+    elif model_id.startswith("model_"):
+        model_id = f"{model_name.split('/')[-2]}_{model_name.split('/')[-1]}"
     return model_id
 
 def swap_layers(layers_to_swap, weighting, base, swap_in, local=False, revert=False):
