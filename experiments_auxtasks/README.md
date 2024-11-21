@@ -119,7 +119,13 @@ python3 ../machamp/train.py --dataset_configs configs/data_ner.json configs/data
 
 ## Predictions
 
-For each model in `logs`, run:
+For each intermediate-task training set-up in `logs`, run:
 ```
-python3 ../machamp/predict.py logs/<SET-UP_NAME>/<TIMESTAMP>/model.pt ../data/norsid_test_machamp.conll predictions/<SET-UP_NAME>_<RANDOM_SEED>.out --device 0
+# in the root dir of this repo:
+bash ./predict_eval.sh experiments_auxtasks/logs/<SET-UP_NAME>/<TIMESTAMP> <RANDOM_SEED> <SPLIT>
+```
+
+For each multitask set-up in `logs`, run:
+```
+bash ./predict_eval_multitask.sh experiments_auxtasks/logs/<SET-UP_NAME>/<TIMESTAMP> <RANDOM_SEED> <SPLIT>
 ```

@@ -7,12 +7,19 @@ Make the test files MaChAmp-compatible:
 python3 dataprep/prep_norsid_for_machamp.py
 ```
 
-Update MaChAmp so NorBERT can be loaded: add kwarg to line 93 of `../machamp/machamp/model/machamp.py`
+### NorBERT3-base
+
+The NorBERT model has non-Huggingface code, which makes loading it more complicated.
+
+Update MaChAmp so NorBERT can be loaded for training: Add kwarg to line 93 of `../machamp/machamp/model/machamp.py`
 ```
 self.mlm = AutoModel.from_pretrained(mlm)
 # ->
 self.mlm = AutoModel.from_pretrained(mlm, trust_remote_code=True)
 ```
+
+To allow loading the NorBERT model for predictions:
+Inside your `transformers_modules` installation, create the subfolders `ltg/norbert3-base/4376f702588d56cd29276a183582f77345d77a4e/` (or whatever the NorBERT commit you used is) and put the files from https://huggingface.co/ltg/norbert3-base/tree/main inside.
 
 ## Baselines
 
@@ -52,5 +59,11 @@ python3 ../machamp/train.py --dataset_configs configs/data_siddial.json --parame
 
 For each model in `logs`, run:
 ```
-python3 ../machamp/predict.py logs/<SET-UP_NAME>/<TIMESTAMP>/model.pt ../data/norsid_test_machamp.conll predictions/<SET-UP_NAME>_<RANDOM_SEED>.out --device 0
+# in the root dir of this repo:
+bash ./predict_eval.sh experiments_baselines/logs/<SET-UP_NAME>/<TIMESTAMP> <RANDOM_SEED> <SPLIT>
+```
+
+For the models trained on 90% of the dialectal development data (= which should only be evaluated on the remaining 10% of the development data), manually re-run the call to the evaluation script afterwards. E.g.,
+```
+python3 data/NoMusic/NorSID/scripts/sidEval.py experiments_baselines/predictions/dev_dev_norbert_siddial_8446.out data/norsid_dev_dev_machamp.conll > experiments_baselines/predictions/dev_dev_norbert_siddial_8446.out.official.eval 
 ```
