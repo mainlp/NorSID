@@ -10,10 +10,6 @@ PATH_BEGINNING=$(dirname "$PATH_WITHOUT_TIMESTAMP")
 SETUP=$(basename "$PATH_WITHOUT_TIMESTAMP")
 OUT_PATH="${PATH_BEGINNING/logs/predictions}"
 
-echo "$TIMESTAMP"
-echo "$SETUP"
-echo "$OUT_PATH"
-
 OUT_FILE="$OUT_PATH"/"$SPLIT"_"$SETUP"_"$SEED".out
 echo "$OUT_FILE"
 
