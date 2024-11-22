@@ -1,0 +1,17 @@
+data/norsid_dev_dev_machamp.conll
+class:                    B       N       T       V       all
+slot recall:              0.8776  0.9151  0.9474  0.9441  0.9356
+slot precision:           0.8958  0.9700  0.9565  0.9795  0.9645
+slot f1:                  0.8866  0.9417  0.9519  0.9615  0.9498
+
+intent accuracy:          0.9615  1.0000  0.9902  1.0000  0.9939
+fully correct:            0.7692  0.8600  0.9118  0.9013  0.8879
+
+unlabeled slot recall:    0.9388  0.9245  0.9665  0.9572  0.9536
+unlabeled slot precision: 0.9583  0.9800  0.9758  0.9932  0.9830
+unlabeled slot f1:        0.9485  0.9515  0.9712  0.9749  0.9681
+
+loose slot recall:        0.9592  0.9340  0.9856  0.9704  0.9686
+loose slot precision:     0.9583  0.9800  0.9903  0.9863  0.9846
+loose slot f1:            0.9588  0.9564  0.9880  0.9783  0.9765
+

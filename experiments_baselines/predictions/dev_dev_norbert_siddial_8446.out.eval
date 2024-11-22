@@ -2,18 +2,18 @@
     "intent": {
         "optimization_metrics": "accuracy",
         "accuracy": {
-            "accuracy": 0.9924242424242424,
+            "accuracy": 0.9939393939393939,
             "sum": "accuracy"
         }
     },
     "slots": {
         "optimization_metrics": "span_f1",
         "span_f1": {
-            "precision": 0.549281161997925,
-            "recall": 0.575197889182058,
-            "span_f1": 0.5619408642911297,
+            "precision": 0.9274924471299094,
+            "recall": 0.9475308641975309,
+            "span_f1": 0.9374045801526717,
             "sum": "span_f1"
         }
     },
-    "sum": 1.554365106715372
+    "sum": 1.9313439740920657
 }

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 RUN_PATH="$1"  # e.g., experiments_baselines/logs/scandibert_siddial/2024.11.12_18.21.27/
 SEED="$2"  # e.g., 1234
