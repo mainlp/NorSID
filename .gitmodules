@@ -13,3 +13,6 @@
 [submodule "data/norne"]
 	path = data/norne
 	url = https://github.com/ltgoslo/norne.git
+[submodule "experiments_layer_swap/JointDeBERTa"]
+	path = experiments_layer_swap/JointDeBERTa
+	url = git@github.com:mainlp/JointDeBERTa.git
