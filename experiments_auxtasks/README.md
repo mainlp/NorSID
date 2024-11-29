@@ -124,6 +124,10 @@ For each intermediate-task training set-up in `logs`, run:
 # in the root dir of this repo:
 bash ./predict_eval.sh experiments_auxtasks/logs/<SET-UP_NAME>/<TIMESTAMP> <RANDOM_SEED> <SPLIT>
 ```
+This creates three files per run in `predictions/`:
+- `<SPLIT>_<SET-UP>_<SEED>.out` (the predictions)
+- `<SPLIT>_<SET-UP>_<SEED>.out.eval` (MaChAmp's evaluation)
+- `<SPLIT>_<SET-UP>_<SEED>.out.eval.official` (the evaluation produced by the shared task's official script)
 
 For each multitask set-up in `logs`, run:
 ```

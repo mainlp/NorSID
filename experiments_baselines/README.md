@@ -62,8 +62,16 @@ For each model in `logs`, run:
 # in the root dir of this repo:
 bash ./predict_eval.sh experiments_baselines/logs/<SET-UP_NAME>/<TIMESTAMP> <RANDOM_SEED> <SPLIT>
 ```
+This creates three files per run in `predictions/`:
+- `<SPLIT>_<SET-UP>_<SEED>.out` (the predictions)
+- `<SPLIT>_<SET-UP>_<SEED>.out.eval` (MaChAmp's evaluation)
+- `<SPLIT>_<SET-UP>_<SEED>.out.eval.official` (the evaluation produced by the shared task's official script)
 
 For the models trained on 90% of the dialectal development data (= which should only be evaluated on the remaining 10% of the development data), manually re-run the call to the evaluation script afterwards. E.g.,
 ```
 python3 data/NoMusic/NorSID/scripts/sidEval.py experiments_baselines/predictions/dev_dev_norbert_siddial_8446.out data/norsid_dev_dev_machamp.conll > experiments_baselines/predictions/dev_dev_norbert_siddial_8446.out.official.eval 
 ```
+
+## Analysis of class distributions
+
+Run `python3 dataprep/data_stats.py` to get the class distributions (slots and intents) in all data splits (output file: `dataprep/data_stats.out`).
