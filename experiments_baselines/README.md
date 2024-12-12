@@ -75,3 +75,7 @@ python3 data/NoMusic/NorSID/scripts/sidEval.py experiments_baselines/predictions
 ## Analysis of class distributions
 
 Run `python3 dataprep/data_stats.py` to get the class distributions (slots and intents) in all data splits (output file: `dataprep/data_stats.out`).
+
+## Collecting detailed slot F-1 scores
+
+Run `python3 predictions/collect_test_slot_detailed_f1.py` to aggregate the detailed F-1 scores (loose, unlabeled, strict) for the test predictions (output file `predictions/aggregated_test_slot_detailed_f1.csv`)
