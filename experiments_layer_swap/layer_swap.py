@@ -7,7 +7,6 @@ from util import load_model
 logging.basicConfig(level=logging.DEBUG)
 
 def swap_layers(base_model, swap_in, args):
-    w_task, w_lang = args.weighting
     state_dict = {}
     swap_in_encoder = swap_in.mlm if hasattr(swap_in, "mlm") else swap_in.deberta
     base_model_encoder = base_model.mlm if hasattr(base_model, "mlm") else base_model.deberta
@@ -27,11 +26,6 @@ def swap_layers(base_model, swap_in, args):
             # keep the original layers
             state_dict[name] = base_model_param
             logging.info(f"Keeping {name} layer from {args.base_model}")
-        else:
-            # non-FFN, non-attention layer
-            # merge the parameters
-            logging.info(f"Merging {name} with weighting {w_task} (base_model) {w_lang} (swap_in)")
-            state_dict[name] = (w_task * base_model_param + w_lang * swap_in_param) / (w_task + w_lang)
 
     if hasattr(base_model, "deberta"):
         base_model.deberta.load_state_dict(state_dict)
@@ -47,7 +41,6 @@ def main():
     parser.add_argument("-l", "--local", action="store_true")
     parser.add_argument("-r", "--revert", action="store_true")
     parser.add_argument("-n", "--layers-to-swap", nargs="+", default = [0, 1])
-    parser.add_argument("-w", "--weighting", nargs=2, default=[0, 1])
     parser.add_argument("-o", "--output", help="Where to store the model", required=True)
     parser.add_argument("--no-cuda", action="store_true",
                         help="Use this flag to override the use of cuda", default=False)
