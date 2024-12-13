@@ -1,3 +1,5 @@
+#!/bin/bash
+
 NORSID_DATA_LOC="../../../data/NoMusic/NorSID"
 DATA_LOC="data"
 rm -rf $DATA_LOC

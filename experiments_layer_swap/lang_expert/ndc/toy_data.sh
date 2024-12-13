@@ -1,2 +1,0 @@
-mkdir data
-awk 'BEGIN {srand(12345)} {r = rand(); if (r < 0.0008) {print > "data/toy_train.txt"} else if (r < 0.0009) {print > "data/toy_dev.txt"} else if (r < 0.001) {print > "data/toy_test.txt"}}' ../../../data/NordicDialectCorpus/ndc_bokmaal.txt

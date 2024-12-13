@@ -1,6 +1,6 @@
 #!/bin/bash
 
-directory_path="/nfs/gdata/fkoerner/norne_lang_exps"
+directory_path="/nfs/gdata/fkoerner/norsid_lang_exps"
 
 for file in "$directory_path"/checkpoint-*; do
 	echo $file
