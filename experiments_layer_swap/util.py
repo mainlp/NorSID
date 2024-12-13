@@ -1,5 +1,9 @@
 import torch
+import sys
 from transformers import DebertaV2ForMaskedLM
+
+sys.path.insert(0, "../../JointBERT")
+sys.path.insert(0, "../machamp")
 
 def load_model(model_location, no_cuda=False):
     try:
