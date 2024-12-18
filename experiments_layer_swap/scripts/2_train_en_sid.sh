@@ -1,6 +1,6 @@
 #!/bin/bash
 LANG=en
-OUTPUT_DIR="en_sid_expert"
+OUTPUT_DIR="en_sid_expert/models"
 DATA_DIR="../data"
 DATA_LOC=$DATA_DIR"/jdeberta"
 JBERT_LOC="JointDeBERTa"
