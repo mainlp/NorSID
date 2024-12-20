@@ -11,18 +11,14 @@ def swap_layers(base_model, swap_in, args):
     swap_in_encoder = swap_in.mlm if hasattr(swap_in, "mlm") else swap_in.deberta
     base_model_encoder = base_model.mlm if hasattr(base_model, "mlm") else base_model.deberta
 
-    # TODO make generic
-    swap_in_encoder.resize_token_embeddings(250102)
-
     for index, ((name, swap_in_param), (name, base_model_param)) in enumerate(zip(swap_in_encoder.named_parameters(),
                                                                               base_model_encoder.named_parameters())):
         layer_num = int(name.split(".")[2]) if "layer." in name else -1
-        if layer_num in args.layers_to_swap or name.startswith("embeddings"):
+        if layer_num in args.layers_to_swap or (not args.revert and name.startswith("embeddings")):
             # use the language expert layers or revert
             state_dict[name] = swap_in_param
             logging.info(f"Swapping in {name} from {args.swap_in}" if not args.revert else f"Reverting {name}")
-        elif (layer_num > 0 or args.revert or
-              name.startswith("encoder.LayerNorm") or name.startswith("encoder.rel_embeddings")):
+        else:
             # keep the original layers
             state_dict[name] = base_model_param
             logging.info(f"Keeping {name} layer from {args.base_model}")

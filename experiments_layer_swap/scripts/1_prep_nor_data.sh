@@ -26,10 +26,14 @@ echo "UNK" >> $DATA_LOC/$LANG/intent_label.txt
 awk '!seen[$0] {print} {++seen[$0]}' $DATA_LOC/$LANG/train/label >>  $DATA_LOC/$LANG/intent_label.txt
 printf "PAD\nUNK\nO\n" >>  $DATA_LOC/$LANG/slot_label.txt
 awk '{
-    for (i=1; i<=NF; i++) {
-        if ($i != "O" && !seen[$i]++) {
-            print $i;
-        }
-    }
-}' $DATA_LOC/$LANG/train/seq.out | sort | uniq >> $DATA_LOC/$LANG/slot_label.txt
+      for (i=1; i<=NF; i++) {
+          if ($i ~ /^B-/) {
+              print $i;
+              sub(/^B-/, "I-", $i);
+              print $i;
+          } else if ($i != "O") {
+              print $i;
+          }
+      }
+  }' $DATA_LOC/$LANG/train/seq.out | sort | uniq >> $DATA_LOC/$LANG/slot_label.txt
 mv  $DATA_LOC/$LANG/valid  $DATA_LOC/$LANG/dev
