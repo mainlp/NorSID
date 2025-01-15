@@ -6,16 +6,20 @@ Run the following scripts to prep the Norwegian and the English data in the Join
 
 ## Train the EnSID Expert
 First, install JointDeBERTa's requirements:
-1. `pip install -r JointDeBERTa/requirements.txt` 
+1. `pip install -r JointDeBERTa/requirements.txt`
+Then install JointDeBERTa itself in editable mode.
+2. `pip install -e JointDeBERTa`
 Train the EnSID Expert (three seeds) using the JointDeBERTa submodule:
-2. `bash scripts/2_train_en_sid.sh`.
-Evaluate all checkpoints (for all seeds, 10x3 total) on the NoMusic dev set:
-3. `bash scripts/3_eval_all_checkpoints_on_nor_dev.sh`
+3. `bash scripts/2_train_en_sid.sh`.
+Evaluate all checkpoints (for all seeds, 10x3=30 total) on the NoMusic dev set:
+4. `bash scripts/3_eval_all_checkpoints_on_nor_dev.sh`
 
 ## Revert Layers of the EnSID Expert
 For all three seeds revert layers in pairs of two sequential layers. Set the desired checkpoint for each seed *first* by
 changing the values in `SEED_TO_CKPT`.
 1. `bash scripts/4_revert_en_sid_models.sh`
+Evaluate all reverted models (for all seeds, 11x3=33 total) on the NoMusic dev set:
+2.  `bash scripts/5_eval_all_reverted.sh`
 
 ## Train the Language Experts (MLM)
 All three language experts are trained with train_mlm.py, originally from
