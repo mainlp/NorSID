@@ -1,4 +1,3 @@
-import torch
 import argparse
 from transformers import DebertaV2ForMaskedLM
 import logging
@@ -46,14 +45,14 @@ def main():
     if args.revert:
         swap_in = DebertaV2ForMaskedLM.from_pretrained("microsoft/mdeberta-v3-base")
     elif args.swap_in:
-        swap_in = load_model(args.swap_in, args.no_cuda)
+        swap_in = load_model(args, args.swap_in)
     else:
         raise ValueError("Either choose to revert (-r) or specify a model to swap in (-s).")
 
     args.layers_to_swap = [int(l) for l in args.layers_to_swap]
-    base_model = load_model(args.base_model, args.no_cuda)
+    base_model = load_model(args, args.base_model)
     assembled_model = swap_layers(base_model, swap_in, args)
-    torch.save(assembled_model, args.output)
+    assembled_model.save_pretrained(args.output)
 
 if __name__ == "__main__":
     main()
