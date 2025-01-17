@@ -1,5 +1,5 @@
 # Layer Swapping
-**NOTE** these scripts do not by create a log, however in most cases (training, evaluation) a logfile is useful.
+**NOTE** these scripts do not create a log, however in most cases (training, evaluation) a logfile is useful.
 A quick and dirty way to log the system output to a file is to run the commands with 
 `nohup bash <script_name> > <log_name>`, e.g. `nohup bash scripts/5_eval_all_reverted.sh > logs/eval.log`
 
