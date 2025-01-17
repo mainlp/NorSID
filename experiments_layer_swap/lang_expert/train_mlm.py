@@ -204,11 +204,11 @@ class DataTrainingArguments:
         else:
             if self.train_file is not None:
                 extension = self.train_file.split(".")[-1]
-                if extension not in ["csv", "json", "txt"]:
+                if extension not in ["csv", "json", "txt", "in"]:
                     raise ValueError("`train_file` should be a csv, a json or a txt file.")
             if self.validation_file is not None:
                 extension = self.validation_file.split(".")[-1]
-                if extension not in ["csv", "json", "txt"]:
+                if extension not in ["csv", "json", "txt", "in"]:
                     raise ValueError("`validation_file` should be a csv, a json or a txt file.")
 
 def main():
@@ -308,7 +308,7 @@ def main():
         if data_args.validation_file is not None:
             data_files["validation"] = data_args.validation_file
             extension = data_args.validation_file.split(".")[-1]
-        if extension == "txt":
+        if extension in {"txt", "in"}:
             extension = "text"
         raw_datasets = load_dataset(
             extension,

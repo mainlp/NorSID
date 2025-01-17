@@ -1,8 +1,8 @@
 #!/bin/bash
 
-directory_path="/nfs/gdata/fkoerner/norsid_lang_exps"
+OUTPUT_DIR="models"
 
-for file in "$directory_path"/checkpoint-*; do
+for file in $OUTPUT_DIR/checkpoint-*; do
 	echo $file
-	python ../train_mlm.py --do_eval --validation_file data/train.txt --model_name_or_path $file
+	python ../train_mlm.py --do_eval -validation_file $DATA_DIR/dev/seq.in --model_name_or_path $file
 done
