@@ -65,7 +65,7 @@ Similarly, the baseline predictions on dev and test for English and Norwegian:
 predictions.
 
 ## Train the Language Experts (MLM)
-All three language experts are trained with train_mlm.py, originally from
+All three language experts are trained with train_mlm.py, from Hugging Face Sentence Transformers.
 
 ### NorSID
 This model uses data prepared in the `Preparations` step above.
@@ -77,6 +77,14 @@ This model uses data prepared in the `Preparations` step above.
 This model uses half of the Nordic Dialect Corpus. Run the following scripts to prepare the data, train the model, and 
 evaluate the checkpoints.
 1. `cd lang_expert/ndc`
+2. `bash prep_data.sh`
+3. `bash train.sh`
+4. `bash eval.sh`
+
+### NorNE
+This model uses the NorNe Corpus. Run the following scripts to prepare the data, train the model, and 
+evaluate the checkpoints.
+1. `cd lang_expert/norne`
 2. `bash prep_data.sh`
 3. `bash train.sh`
 4. `bash eval.sh`
