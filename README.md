@@ -1,7 +1,7 @@
 # NorSID
 
 This is the code used by the MaiNLP team in the [VarDial 2025 shared task](https://sites.google.com/view/vardial-2025/shared-tasks) on dialectal Norwegian slot and intent detection. 
-It is described in the paper *Add Noise, Tasks, or Layers? A Comparison of Methods to Improve Dialectal Norwegian Slot and Intent Detection* (Verena Blaschke\*, Felicia Körner\*, Barbara Plank), to be published at VarDial @ COLING 2025.
+It is described in the paper [Add Noise, Tasks, or Layers? A Comparison of Methods to Improve Dialectal Norwegian Slot and Intent Detection](https://aclanthology.org/2025.vardial-1.14/) (Verena Blaschke\*, Felicia Körner\*, Barbara Plank), to be published at VarDial @ COLING 2025.
 
 ## Code
 
@@ -24,3 +24,27 @@ Data in submodule folder:
 
 Data to be additionally downloaded:
 - [Nordic Dialect Corpus](https://tekstlab.uio.no/scandiasyn/download.html) ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)): Download the phonetic & orthographic transcriptions with informant codes, unzip them, and add the folders `ndc_phon_with_informant_codes` and `ndc_with_informant_codes` to the `data` directory.
+
+## Citation
+
+```
+@inproceedings{blaschke-etal-2025-add,
+    title = "Add Noise, Tasks, or Layers? {M}ai{NLP} at the {V}ar{D}ial 2025 Shared Task on {N}orwegian Dialectal Slot and Intent Detection",
+    author = {Blaschke, Verena  and
+      K{\"o}rner, Felicia  and
+      Plank, Barbara},
+    editor = "Scherrer, Yves  and
+      Jauhiainen, Tommi  and
+      Ljube{\v{s}}i{\'c}, Nikola  and
+      Nakov, Preslav  and
+      Tiedemann, Jorg  and
+      Zampieri, Marcos",
+    booktitle = "Proceedings of the 12th Workshop on NLP for Similar Languages, Varieties and Dialects",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.vardial-1.14/",
+    pages = "182--199",
+}
+```
